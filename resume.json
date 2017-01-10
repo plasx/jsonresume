@@ -1,0 +1,157 @@
+{
+"basics": {
+"name": "Daniel Plas Rivera",
+"label": "Full Stack Developer",
+"picture": "",
+"email": "plasx1987@gmail.com",
+"phone": "2124702431",
+"website": "http://plas.nyc",
+"location": {
+"postalCode": "10037",
+"city": "New York",
+"countryCode": "US",
+"region": "New York"
+},
+"profiles": [
+{
+"network": "Linkedin",
+"username": "https://www.linkedin.com/in/plasnyc",
+"url": "https://www.linkedin.com/in/plasnyc"
+},
+{
+"network": "Github",
+"username": "plasx",
+"url": "https://github.com/plasx"
+}
+]
+},
+"work": [
+{
+"company": "Columbia University",
+"position": "PHP/Python Developer",
+"website": "http://www.columbia.edu",
+"startDate": "2016-4-18",
+"summary": "Work on transitioning Columbia University to a Python stack while maintaining compatiblitiy with older technologies. This includes creating and implementing a server flow working with older components to make sure nothing breaks.  Recreate improved versions of older applications in Python stack.  Create man in the middle apps for older apps to interact with new technologies.",
+"highlights": [
+"Works with GIT, Flask, Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle Database, Axure, Vagrant, Virtualbox, Slack, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow",
+"Follows Agile SDLC, Made sure code is always up to PEP8 standards, and servers(with code) pass load tests",
+"Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not"
+]
+},
+{
+"company": "Thinkful",
+"position": "Python & Frontend Web Development Mentor",
+"website": "http://thinkful.com",
+"startDate": "2015-06-01",
+"summary": "Mentor students in web development as they work through a project-based curriculum. Guide students through the challenges of becoming a developer. Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects.",
+"highlights": []
+},
+{
+"company": "Work-Bench",
+"position": "Part Time Developer",
+"website": "http://www.work-bench.com",
+"startDate": "2015-01-15",
+"endDate": "2015-06-01",
+"summary": "Tasked to deliver a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-bench.",
+"highlights": [
+  "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
+  "Developed page to let users sort sort the received api feed and browse by location, job function, category, etc",
+  "Worked with Git, Heroku, Ruby, Middleman Framework, REST, Javascript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries"
+]
+},
+{
+"company": "Basics Plus",
+"position": "Lead Full Stack Developer",
+"website": "http://basicsplus.com",
+"startDate": "2015-01-15",
+"endDate": "2015-06-01",
+"summary": "Hired to deliver an unrivaled online experience that connects to the current POS system for the fast growing chain of houseware & hardware stores in NYC",
+"highlights": [
+"Developed an e-commerce solution getting the company back online as a national online retailer",
+"Onboarded and trained the team for Fullstack Web Development and the SEO team",
+"Worked with Google Online Strategist to revamp our ad campaigns increase sales and insert raise our site ranking",
+"Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords",
+"Created and managed, implemented new features for subsidiaries e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
+"Used Magento, MySQL, SEO, Google Analytics, Google Adwords , PHP, Javascript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
+]
+},
+{
+"company": "New York City College Of Technology",
+"position": "College Laboratory Technician",
+"website": "http://citytech.cuny.edu",
+"startDate": "2014-01-01",
+"endDate": "2015-01-01",
+"summary": "Assisted professors instruct courses, evaluate course plans, help teach and troubleshoot websites and video projects created by students. Troubleshot computers, gave demonstrations on Emerging Technologies.",
+"highlights": [
+"Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers,"
+]
+},
+{
+"company": "PLAS NYC",
+"position": "Freelance Fullstack Developer",
+"website": "https://plas.nyc",
+"startDate": "2009",
+"summary": "The K.I.S. Foundation Inc., Full Stack Developer, 2010 - Present The Next Phase Entertainment, LLC., Full Stack Developer/GFX Artist, 2009 - 2014 Prostarterz, Front-end Developer/GFX Artist 2013 - 2013",
+"highlights": []
+}
+],
+"volunteer": [],
+"education": [
+{
+"institution": "Hunter College",
+"area": "Emerging Media",
+"studyType": "",
+"startDate": "2014-02-27",
+"endDate": "2014-05-24",
+"gpa": "",
+"courses": []
+},
+{
+"institution": "New York City College of Technology",
+"area": "Emerging Media Technologies",
+"studyType": "",
+"startDate": "2011-11-26",
+"endDate": "2013-05-24",
+"gpa": "",
+"courses": []
+},
+{
+"institution": "Borough of Manhattan Community College",
+"area": "Multimedia Programming & Design",
+"studyType": "Associates",
+"startDate": "2005-01-16",
+"endDate": "2010-12-15",
+"gpa": "",
+"courses": []
+}
+],
+"awards": [
+{
+"title": "Hack NYU Hackathon",
+"date": "2014-05-06",
+"awarder": "NYU",
+"summary": "MVP Winner. SudoLove connects participants, sponsors and mentors for global hackathons via an app."
+},
+{
+"title": "AngelHack 2016 Manhattan",
+"date": "2016",
+"awarder": "AngelHack",
+"summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app that eliminates the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to your destination by comparing the Uber car service and public transportation. Our targert users are New Yorker who understand the fast living pace of New York City. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS"
+}
+],
+"publications": [],
+"skills": [],
+"languages": [],
+"interests": [],
+"references": [
+{
+"name": "Latonia Robinson, Dir. of Operations, The K.I.S. Foundation",
+"reference": "Daniel is an absolute joy to work with and continues to impress us with his technical skill sets. Whenever we have a problem with our website, he always has the answer or recommendations for improvement. Daniel follows direction well, he's always aware of the latest programs or trends, he works well with deadlines, he's able to communicate effectively, he's super reliable, and his experience is absolutely priceless. We're so thankful to have him working with us as part of our team! "
+},
+{
+"name": "Antonio Riccardi, Web Engineer at Basics Plus",
+"reference": "Daniel is one of the best developers we know. His speed and ability to conquer any challenge thrown at him helped us recover our online presence. He led our team here through rigorous challenges with unique solutions each time always getting the job done before the deadlines. Working with him was a blast and we would recommend him when it comes to handling tough projects!"
+}
+],
+"__v": 0
+}
