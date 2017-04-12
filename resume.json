@@ -1,158 +1,218 @@
 {
-"basics": {
-"name": "Daniel Plas Rivera",
-"label": "Full Stack Developer",
-"picture": "",
-"email": "plasx1987@gmail.com",
-"phone": "2124702431",
-"website": "http://plas.nyc",
-"summary": "7 years of experience as a Full Stack Web/Application Developer passionate about modern & upcoming technologies. I find myself addicted to testing out new technologies. I love front-end and back-end technologies, and I even love the multiple layers under them!  I dislike undocumented code, aging infrastructures.",
-"location": {
-"postalCode": "10037",
-"city": "New York",
-"countryCode": "US",
-"region": "New York"
-},
-"profiles": [
-{
-"network": "Linkedin",
-"username": "https://www.linkedin.com/in/plasnyc",
-"url": "https://www.linkedin.com/in/plasnyc"
-},
-{
-"network": "Github",
-"username": "plasx",
-"url": "https://github.com/plasx"
-}
-]
-},
-"work": [
-{
-"company": "Columbia University",
-"position": "PHP/Python Developer",
-"website": "http://www.columbia.edu",
-"startDate": "2016-4-18",
-"summary": "Work on transitioning Columbia University to a Python stack while maintaining compatiblitiy with older technologies. This includes creating and implementing a server flow working with older components to make sure nothing breaks.  Recreate improved versions of older applications in Python stack.  Create man in the middle apps for older apps to interact with new technologies.",
-"highlights": [
-"Works with GIT, Flask, Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle Database, Axure, Vagrant, Virtualbox, Slack, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow",
-"Follows Agile SDLC, Made sure code is always up to PEP8 standards, and servers(with code) pass load tests",
-"Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not"
-]
-},
-{
-"company": "Thinkful",
-"position": "Python & Frontend Web Development Mentor",
-"website": "http://thinkful.com",
-"startDate": "2015-06-01",
-"summary": "Mentor students in web development as they work through a project-based curriculum. Guide students through the challenges of becoming a developer. Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects.",
-"highlights": []
-},
-{
-"company": "Work-Bench",
-"position": "Part Time Developer",
-"website": "http://www.work-bench.com",
-"startDate": "2015-01-15",
-"endDate": "2015-06-01",
-"summary": "Tasked to deliver a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-bench.",
-"highlights": [
-  "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
-  "Developed page to let users sort sort the received api feed and browse by location, job function, category, etc",
-  "Worked with Git, Heroku, Ruby, Middleman Framework, REST, Javascript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries"
-]
-},
-{
-"company": "Basics Plus",
-"position": "Lead Full Stack Developer",
-"website": "http://basicsplus.com",
-"startDate": "2015-01-15",
-"endDate": "2015-06-01",
-"summary": "Hired to deliver an unrivaled online experience that connects to the current POS system for the fast growing chain of houseware & hardware stores in NYC",
-"highlights": [
-"Developed an e-commerce solution getting the company back online as a national online retailer",
-"Onboarded and trained the team for Fullstack Web Development and the SEO team",
-"Worked with Google Online Strategist to revamp our ad campaigns increase sales and insert raise our site ranking",
-"Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords",
-"Created and managed, implemented new features for subsidiaries e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
-"Used Magento, MySQL, SEO, Google Analytics, Google Adwords , PHP, Javascript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
-]
-},
-{
-"company": "New York City College Of Technology",
-"position": "College Laboratory Technician",
-"website": "http://citytech.cuny.edu",
-"startDate": "2014-01-01",
-"endDate": "2015-01-01",
-"summary": "Assisted professors instruct courses, evaluate course plans, help teach and troubleshoot websites and video projects created by students. Troubleshot computers, gave demonstrations on Emerging Technologies.",
-"highlights": [
-"Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers,"
-]
-},
-{
-"company": "PLAS NYC",
-"position": "Freelance Fullstack Developer",
-"website": "https://plas.nyc",
-"startDate": "2009",
-"summary": "The K.I.S. Foundation Inc., Full Stack Developer, 2010 - Present The Next Phase Entertainment, LLC., Full Stack Developer/GFX Artist, 2009 - 2014 Prostarterz, Front-end Developer/GFX Artist 2013 - 2013",
-"highlights": []
-}
-],
-"volunteer": [],
-"education": [
-{
-"institution": "Hunter College",
-"area": "Emerging Media",
-"studyType": "",
-"startDate": "2014-02-27",
-"endDate": "2014-05-24",
-"gpa": "",
-"courses": []
-},
-{
-"institution": "New York City College of Technology",
-"area": "Emerging Media Technologies",
-"studyType": "",
-"startDate": "2011-11-26",
-"endDate": "2013-05-24",
-"gpa": "",
-"courses": []
-},
-{
-"institution": "Borough of Manhattan Community College",
-"area": "Multimedia Programming & Design",
-"studyType": "Associates",
-"startDate": "2005-01-16",
-"endDate": "2010-12-15",
-"gpa": "",
-"courses": []
-}
-],
-"awards": [
-{
-"title": "Hack NYU Hackathon",
-"date": "2014-05-06",
-"awarder": "NYU",
-"summary": "MVP Winner. SudoLove connects participants, sponsors and mentors for global hackathons via an app."
-},
-{
-"title": "AngelHack 2016 Manhattan",
-"date": "2016",
-"awarder": "AngelHack",
-"summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app that eliminates the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to your destination by comparing the Uber car service and public transportation. Our targert users are New Yorker who understand the fast living pace of New York City. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS"
-}
-],
-"publications": [],
-"skills": [],
-"languages": [],
-"interests": [],
-"references": [
-{
-"name": "Latonia Robinson, Dir. of Operations, The K.I.S. Foundation",
-"reference": "Daniel is an absolute joy to work with and continues to impress us with his technical skill sets. Whenever we have a problem with our website, he always has the answer or recommendations for improvement. Daniel follows direction well, he's always aware of the latest programs or trends, he works well with deadlines, he's able to communicate effectively, he's super reliable, and his experience is absolutely priceless. We're so thankful to have him working with us as part of our team! "
-},
-{
-"name": "Antonio Riccardi, Web Engineer at Basics Plus",
-"reference": "Daniel is one of the best developers we know. His speed and ability to conquer any challenge thrown at him helped us recover our online presence. He led our team here through rigorous challenges with unique solutions each time always getting the job done before the deadlines. Working with him was a blast and we would recommend him when it comes to handling tough projects!"
-}
-],
-"__v": 0
+  "basics": {
+    "name": "Daniel Plas Rivera",
+    "label": "Python Full Stack Developer",
+    "picture": "",
+    "email": "plasx1987@gmail.com",
+    "phone": "(212) 470-2431",
+    "website": "http://plas.nyc/#WIP",
+    "summary": "7 years of experience as a Full Stack Web/Application Developer passionate about modern & upcoming technologies. I find myself addicted to testing out new technologies. I love front end and back end Technologies, and I even love the multiple layers under them!  I dislike perl, ruby, aging tech stacks. I love hacking hardware making things do what they weren't intended for and discovering new uses! I imagine one day I'll be able to code an Nintendo game in assembly :)",
+    "location": {
+      "address": "2190 Madison Ave",
+      "postalCode": "NY 10037",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "plasx",
+        "url": "https://twitter.com/plasx"
+      },
+      {
+      "network": "Linkedin",
+      "username": "https://www.linkedin.com/in/plasnyc",
+      "url": "https://www.linkedin.com/in/plasnyc"
+      },
+      {
+      "network": "Github",
+      "username": "plasx",
+      "url": "https://github.com/plasx"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Columbia University",
+      "position": "Application Systems Developer - Python/PHP",
+      "website": "http://columbia.edu",
+      "startDate": "2016-04-18",
+      "summary": "Work on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This includes creating and implementing a server flow working with older components to make sure nothing breaks.  Recreate improved versions of older applications with the Python stack. Create middleware for older apps to interact with new technologies.",
+      "highlights": [
+        "Built Full Stack Python Applications for the University",
+        "Wrote Python scripts to parse JSON documents and load the data in database.",
+        "Created automated ETL tool from the ground up to transfer from JSON, CSV, TSV, to database daily",
+        "Develop locally with Vagrant and Docker for virtualized instances of servers and databases on the fly",
+        "Created automated script to make REST api calls with server, parse output report to excel files daily.",
+        "Used GIT, JIRA, and ServiceNOW for version control and to handle project issues, workflow and tickets.",
+        "Created and planned out the server flow, infrastructure for python web app stack for Columbia University.",
+        "Follows Agile SDLC, made sure code is always up to PEP8 standards, and servers(with code) pass unit & load tests.",
+        "Create big data apps using existing data from multiple databases at Columbia, prep for Hadoop, demo monthly data using Tableau.",
+        "Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not.",
+        "Stack: Python3, python2, GIT, Flask/Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow, Unix Shell Script, CRON, Javascript, Nodejs, JSON, Tableau, ETL, Data Warehousing"
+      ]
+    },
+    {
+      "company": "Brainy Maps",
+      "position": "President",
+      "website": "https://gogobanana.net/",
+      "startDate": "2013-06-01",
+      "summary": "BrainyMaps was born after winning AngelHack 2016 Manhattan. My partner and I adjusted our winning concept and came up with Go Go Banana, which is a web app that lets you see what is happening around you from geo tagged tweets to Event Brite events. Based on your location you will be exposed REAL TIME to information around you!",
+      "highlights": [
+        "Implement Google Maps for our platform and styling it for plotting our data",
+        "Create menu utilizing React.JS for restful api CRUD events for events management and notifications",
+        "Recreating app in React Native with focus on iOS"
+      ]
+    },
+    {
+      "company": "Thinkful",
+      "position": "Python & Front end Web Development Mentor",
+      "website": "http://thinkful.com",
+      "startDate": "2015-06-18",
+      "endDate": "2016-04-06",
+      "summary": "Educating those who want to learn or changing careers pursuing web development or python",
+      "highlights": [
+        "Mentor students in web development as they work through a project-based curriculum.",
+        "Guide students through the challenges of becoming a developer.",
+        "Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects."
+      ]
+    },
+    {
+      "company": "Work-Bench",
+      "position": "Part Time Developer",
+      "website": "http://www.work-bench.com",
+      "startDate": "2015-11-12",
+      "endDate": "2015-07-01",
+      "summary": "Tasked to deliver a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-bench.",
+      "highlights": [
+        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
+        "Developed page to let users sort sort the received api feed and browse by location, job function, category, etc",
+        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, Javascript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries"
+      ]
+    },
+    {
+      "company": "Basics Plus",
+      "position": "Lead Full Stack Developer",
+      "website": "http://basicsplus.com",
+      "startDate": "2015-01-15",
+      "endDate": "2015-06-01",
+      "summary": "Hired to deliver an unrivaled online experience that connects to the current POS system for the fast growing chain of houseware & hardware stores in NYC",
+      "highlights": [
+        "Developed an e-commerce solution getting the company back online as a national online retailer",
+        "Onboarded and trained the team for Fullstack Web Development and the SEO team",
+        "Worked with Google Online Strategist to revamp our ad campaigns increase sales and insert raise our site ranking",
+        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords",
+        "Created and managed, implemented new features for subsidiaries e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
+        "Stack: Magento, MySQL, SEO, Google Analytics, Google Adwords , PHP, Javascript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
+      ]
+    },
+    {
+      "company": "New York City College Of Technology",
+      "position": "College Laboratory Technician",
+      "website": "http://citytech.cuny.edu",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "summary": "Assisted professors instruct courses, evaluate course plans, teach and troubleshoot code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students. Gave demos on emerging technologies. Ensured equipment readiness for classes. Performed woodwork, arc welding, wood shop maintenance.",
+      "highlights": [
+        "Stack: Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers"
+      ]
+    },
+    {
+      "company": "The K.I.S. Foundation, Inc.",
+      "position": "Part Time Full Stack PHP Developer",
+      "website": "http://thekisfoundation.org",
+      "startDate": "2010-06-01",
+      "endDate": "2014-12-30",
+      "summary": "Helped celebrities raise awareness for sickle cell disease by providing an online experience",
+      "highlights": [
+        "Migrated existing site from Joomla to Wordpress",
+        "Developed a customized redesigned Wordpress theme for posting latest updates and charity events.",
+        "Updated the sites code, design and feel annually.",
+        "Stack: Wordpress, Joomla, MySQL, PHP, HTML,CSS, Javascript, Adobe Photoshop"
+      ]
+    },
+    {
+      "company": "The Next Phase Entertainment, LLC.",
+      "position": "Part Time Full Stack PHP Developer",
+      "website": "http://weaproblem.com",
+      "startDate": "2009-06-01",
+      "endDate": "2013-12-30",
+      "summary": "Conceptualized, styled and developed unique websites for multiple artists under the Next Phase Entertainment label.",
+      "highlights": [
+        "Stack: WordPress, PhpMyAdmin, MySQL, PHP, HTML5,CSS3, Jquery, Twitter Bootstrap, Adobe Photoshop"
+      ]
+    },
+    {
+      "company": "Medgar Evers College",
+      "position": "Flash Animator & GFX Artist Intern",
+      "website": "http://www.mec.cuny.edu/",
+      "startDate": "2010-12-01",
+      "endDate": "2010-09-30",
+      "summary": "Working with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns",
+      "highlights": [
+        "Stack: Macromedia Flash, Adobe illustrator, Adobe Photoshop"
+      ]
+    }
+  ],
+  "education": [
+  {
+    "institution": "Hunter College",
+    "area": "Emerging Media",
+    "studyType": "",
+    "startDate": "2014-02-27",
+    "endDate": "2014-05-24",
+    "gpa": "",
+    "courses": []
+  },
+  {
+    "institution": "New York City College of Technology",
+    "area": "Emerging Media Technologies",
+    "studyType": "",
+    "startDate": "2011-11-26",
+    "endDate": "2013-05-24",
+    "gpa": "",
+    "courses": []
+  },
+  {
+    "institution": "Borough of Manhattan Community College",
+    "area": "Multimedia Programming & Design",
+    "studyType": "Associates",
+    "startDate": "2005-01-16",
+    "endDate": "2010-12-15",
+    "gpa": "",
+    "courses": []
+  },
+  {
+    "institution": "School of Cooperative Technical Education",
+    "area": "Multimedia Programming & Design",
+    "startDate": "2003-12-23",
+    "endDate": "2005-01-05",
+    "courses": ["Cisco Networking Academy", "A+ CompTIA Computer Repair Training"]
+  }
+  ],
+  "awards": [
+    {
+      "title": "Hack NYU Hackathon",
+      "date": "2014-05-06",
+      "awarder": "NYU",
+      "summary": "MVP Winner. SudoLove connects participants, sponsors and mentors for global hackathons via an app."
+    },
+    {
+      "title": "AngelHack 2016 Manhattan",
+      "date": "2016-06-04",
+      "awarder": "AngelHack",
+      "summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app that eliminates the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to your destination by comparing the Uber car service and public transportation. Our target users are New Yorkers who understand the fast living pace of New York City. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS"
+    }
+  ],
+  "references": [
+    {
+    "name": "Latonia Robinson, Dir. of Operations, The K.I.S. Foundation",
+    "reference": "Daniel is an absolute joy to work with and continues to impress us with his technical skill sets. Whenever we have a problem with our website, he always has the answer or recommendations for improvement. Daniel follows direction well, he's always aware of the latest programs or trends, he works well with deadlines, he's able to communicate effectively, he's super reliable, and his experience is absolutely priceless. We're so thankful to have him working with us as part of our team! "
+    },
+    {
+    "name": "Antonio Riccardi, Web Engineer at Basics Plus",
+    "reference": "Daniel is one of the best developers we know. His speed and ability to conquer any challenge thrown at him helped us recover our online presence. He led our team here through rigorous challenges with unique solutions each time always getting the job done before the deadlines. Working with him was a blast and we would recommend him when it comes to handling tough projects!"
+    }
+  ]
 }
