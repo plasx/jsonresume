@@ -57,11 +57,7 @@
       "company": "Brainy Maps",
       "position": "President",
       "website": "https://gogobanana.net/",
-<<<<<<< HEAD
       "startDate": "2016-06-01",
-=======
-      "startDate": "2013-06-01",
->>>>>>> e146ee62f79ee6437bc57dd8b1933a3cb328b9c8
       "summary": "BrainyMaps was born after winning AngelHack 2016 Manhattan. My partner and I adjusted our winning concept and came up with Go Go Banana, which is a web app that lets you see what is happening around you from geo tagged tweets to Event Brite events. Based on your location you will be exposed REAL TIME to information around you!",
       "highlights": [
         "Implement Google Maps for our platform and styling it for plotting our data",
