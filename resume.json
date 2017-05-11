@@ -50,7 +50,7 @@
         "Follows Agile SDLC, made sure code is always up to PEP8 standards, and servers (with code) pass unit & load tests",
         "Create big data apps using existing data from multiple databases at Columbia, prep for Hadoop, demo monthly data using Tableau",
         "Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not",
-        "Stack: Python3, python2, GIT, Flask/Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow, Unix Shell Script, CRON, Javascript, Nodejs, JSON, Tableau, ETL, Data Warehousing"
+        "Stack: Python3, python2, GIT, Flask/Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow, Unix Bash/Shell Script, CRON, Javascript, Nodejs, JSON, Tableau, ETL, Data Warehousing"
       ]
     },
     {
