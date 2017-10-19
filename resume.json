@@ -34,10 +34,22 @@
   },
   "work": [
     {
+      "company": "Bank of America",
+      "position": "Application Architect V - Contractor",
+      "website": "http://bankofamerica.com",
+      "startDate": "2017-07-10",
+      "endDate": "2017-10-17,
+      "summary": "Collaborate cross functionally to develop our target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Define multiyear platform strategy adjusting to new technologies and requirements as they evolve. Drive cloud technology discussions and facilitate decision with other teams within the organization. Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions. Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc. Drive technical designs to consensus and approval. Work with product owners and other functional teams to translate the roadmap into releases. Keep abreast of and gain expertise in the evolving technology and understand how new technologies could be applied to our Cloud offering. Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform. Research, test and understand the value of a containerized cloud offerings.",
+      "highlights": [
+        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Jenkins"
+      ]
+    },
+    {
       "company": "Columbia University",
       "position": "Application Systems Developer - Python/PHP",
       "website": "http://columbia.edu",
       "startDate": "2016-04-18",
+      "endDate": "2017-07-06",
       "summary": "Work on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This including: 1) creating and implementing a server flow working with older components to make sure nothing breaks,  2) Recreate improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
       "highlights": [
         "Built Full Stack Python Applications for the University",
@@ -128,7 +140,7 @@
       "position": "Part Time Full Stack PHP Developer",
       "website": "http://thekisfoundation.org",
       "startDate": "2010-06-01",
-      "endDate": "2014-12-30",
+      "endDate": "2017-09-18",
       "summary": "Helped celebrities raise awareness for sickle cell disease by providing an online experience",
       "highlights": [
         "Migrated existing site from Joomla to Wordpress",
