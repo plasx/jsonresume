@@ -38,7 +38,7 @@
       "position": "Developer - Contractor",
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
-      "summary": "Developed frontend, backend solutions. Built vSEC lab environments to match possible virtualized security solution configurations. I worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "summary": "Developed frontend, backend solutions. Built vSEC lab environments to mimic possible virtualized security solution configurations. I worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
       ]
