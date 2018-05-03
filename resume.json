@@ -8,8 +8,8 @@
     "website": "http://plas.nyc/#WIP",
     "summary": "8 years of experience as a Full Stack Web/Application Developer passionate about modern & upcoming technologies. I find myself addicted to testing out new technologies. I love front end and back end Technologies, and I even love the multiple layers under them!  I dislike perl, ruby, aging tech stacks. I love hacking hardware making things do what they weren't intended for and discovering new uses! I imagine one day I'll be able to code an Nintendo game in assembly :)",
     "location": {
-      "address": "2190 Madison Ave",
-      "postalCode": "NY 10037",
+      "address": "6 E 126 St",
+      "postalCode": "NY 10035",
       "city": "New York",
       "countryCode": "US",
       "region": "New York"
@@ -34,14 +34,24 @@
   },
   "work": [
     {
+      "company": "Price Waterhouse Cooper",
+      "position": "Developer - Contractor",
+      "website": "http://pwc.com",
+      "startDate": "2017-12-04",
+      "summary": "Developed frontend, backend solutions. Built vSEC lab environments to match possible virtualized security solution configurations. I worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "highlights": [
+        "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
+      ]
+    },
+    {
       "company": "Bank of America",
       "position": "Application Architect V - Contractor",
       "website": "http://bankofamerica.com",
       "startDate": "2017-07-10",
-      "endDate": "2017-10-17,
+      "endDate": "2017-10-17",
       "summary": "Collaborate cross functionally to develop our target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Define multiyear platform strategy adjusting to new technologies and requirements as they evolve. Drive cloud technology discussions and facilitate decision with other teams within the organization. Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions. Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc. Drive technical designs to consensus and approval. Work with product owners and other functional teams to translate the roadmap into releases. Keep abreast of and gain expertise in the evolving technology and understand how new technologies could be applied to our Cloud offering. Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform. Research, test and understand the value of a containerized cloud offerings.",
       "highlights": [
-        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Jenkins"
+        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
       ]
     },
     {
