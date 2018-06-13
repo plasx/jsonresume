@@ -38,7 +38,7 @@
       "position": "Developer - Contractor",
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
-      "summary": "Developed frontend, and backend solutions. Built vSEC lab environments to mimic possible virtualized security solution configurations. worked on VPN features for our PaaS. I worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "summary": "Took ownership of implementation of VPN technologies into our PaaS(Platform As a Service). While in charge of setting up VPN Infrastructure on Azure; Used docker and docker-compose to have VPN containers launched when initiated by the PaaS. Worked on VPN features for our PaaS, Developed frontend, and backend solutions utilizing Django. Built vSEC lab environments to mimic possible virtualized security solution configurations. Debugged React and django integrations. Refactored python applications for Snaplogic pipelines. I worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
       ]
