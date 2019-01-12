@@ -5,10 +5,10 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "9 years of experience as a Full Stack Web/Application Developer passionate about modern & upcoming technologies. I find myself addicted to testing out new technologies. I love front end and back end technologies, I even love the multiple layers under them! I dislike Perl, Ruby, aging tech stacks. I love hacking hardware making things do what they weren't intended for and discovering new uses! I imagine one day I'll be able to code an Nintendo game in assembly :)",
+    "summary": "10 years of experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I am addicted to testing out new frameworks and programming languages. I love migrating obsolete tech stacks (Ruby, Perl) to the latest tech stacks. I love front end and back end stacks, even the multiple layers under them! I love hacking hardware and making things do what they weren't intended for and discovering new uses. I imagine one day I'll be able to code a Nintendo game in assembly :)",
     "location": {
-      "address": "6 E 126 St",
-      "postalCode": "NY 10035",
+      "address": "164 E 112th St",
+      "postalCode": "NY 10029",
       "city": "New York",
       "countryCode": "US",
       "region": "New York"
@@ -36,7 +36,8 @@
       "company": "Cox Automotive",
       "position": "Sr. Python Full Stack Engineer - Contractor",
       "website": "https://www.coxautoinc.com",
-      "startDate": "2017-08-08"
+      "startDate": "2018-08-08",
+      "summary": "Work on full stack Python Django React applications. Focus on Dockerizing/Docker-composing existing systems and networks. Create a ton of documentation for new projects and undocumented services. Create Groovy scripts for Jenkin pipelines to automate upload, build and deployment of images."
     },
     {
       "company": "Price Waterhouse Coopers",
@@ -44,7 +45,7 @@
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
       "endDate": "2018-07-02",
-      "summary": "Took ownership of implementation of VPN technologies into our PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-compose to have VPN containers launched when initiated by the PaaS. I worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. I worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
         "Debugged React and Django integrations",
         "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django",
@@ -60,7 +61,7 @@
       "website": "http://bankofamerica.com",
       "startDate": "2017-07-10",
       "endDate": "2017-10-17",
-      "summary": "Collaborate cross functionally to develop our target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Define multiyear platform strategy adjusting to new technologies and requirements as they evolve. Drive cloud technology discussions and facilitate decision with other teams within the organization. Keep abreast of and gain expertise in the evolving technology and understand how new technologies could be applied to our Cloud offering.",
+      "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Defined multi-year platform strategy adjusting to new technologies and requirements as they evolve. Drove cloud technology discussions and facilitated decisions with other teams within the organization. Kept abreast of and gained expertise in the evolving technology and understand how new technologies could be applied to Cloud offering.",
       "highlights": [
         "Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform",
         "Research, test and understand the value of a containerized cloud offerings",
@@ -78,7 +79,7 @@
       "website": "http://columbia.edu",
       "startDate": "2016-04-18",
       "endDate": "2017-07-06",
-      "summary": "Work on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This including: 1) creating and implementing a server flow working with older components to make sure nothing breaks,  2) Recreate improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
+      "summary": "Worked on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This included: 1) creating and implementing a server flow working with older components to make sure nothing breaks 2) recreating improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
       "highlights": [
         "Built Full Stack Python Applications for the University",
         "Wrote Python scripts to parse JSON documents and load the data in database.",
