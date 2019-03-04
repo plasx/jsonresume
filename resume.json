@@ -52,12 +52,11 @@
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
       "endDate": "2018-07-02",
-      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. I worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. Worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
         "Debugged React and Django integrations.",
         "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django.",
         "Refactored Python applications for Snaplogic pipelines.",
-        "",
         "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
       ]
@@ -86,7 +85,7 @@
       "website": "http://columbia.edu",
       "startDate": "2016-04-18",
       "endDate": "2017-07-06",
-      "summary": "Worked on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This included: 1) creating and implementing a server flow working with older components to make sure nothing breaks 2) recreating improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
+      "summary": "Worked on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies, including: 1) creating and implementing a server flow working with older components to make sure nothing breaks 2) recreating improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
       "highlights": [
         "Built Full Stack Python Applications for the University.",
         "Wrote Python scripts to parse JSON documents and load the data in database.",
@@ -109,7 +108,7 @@
       "website": "https://gogobanana.net/",
       "startDate": "2016-06-01",
       "endDate": "2017-11-11",
-      "summary": "BrainyMaps was established after winning AngelHack 2016 Manhattan. My partner and I adjusted our winning concept and conceived Go Go Banana, which is a web app allows the user to see events as they occur from geo tagged tweets to Event Brite events. Based on your location you will be exposed REAL TIME to information in REAL TIME, based on their location!",
+      "summary": "Based on your location you will be exposed real time to information in real time, based on their location!",
       "highlights": [
         "Implement Google Maps for our platform and style it for plotting our data.",
         "Create menu using React.JS for restful api CRUD events for events management and notifications.",
@@ -122,7 +121,7 @@
       "website": "http://thinkful.com",
       "startDate": "2015-06-18",
       "endDate": "2016-04-06",
-      "summary": "Educating learners or students who wish to pursue careers in web development or python.",
+      "summary": "Educated learners or students who wished to pursue careers in web development or python.",
       "highlights": [
         "Mentor students in web development as they work through a project-based curriculum.",
         "Guide students through the challenges of becoming a developer.",
@@ -135,7 +134,7 @@
       "website": "http://www.work-bench.com",
       "startDate": "2015-11-12",
       "endDate": "2016-07-01",
-      "summary": "Tasked to deliver a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-bench.",
+      "summary": "Delivered a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-Bench.",
       "highlights": [
         "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs.",
         "Developed page to let users sort the received api feed and browse by location, job function, category.",
@@ -148,7 +147,7 @@
       "website": "http://basicsplus.com",
       "startDate": "2015-01-15",
       "endDate": "2015-06-01",
-      "summary": "Tasked to deliver an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC.",
+      "summary": "Delivered an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC.",
       "highlights": [
         "Developed an e-commerce solution to ensure the company developed as a national online retailer.",
         "Onboarded and trained the team for Full stack Web Development and the SEO team.",
@@ -205,7 +204,7 @@
       "website": "http://www.mec.cuny.edu/",
       "startDate": "2010-09-30",
       "endDate": "2010-12-01",
-      "summary": "Working with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns.",
+      "summary": "Worked with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns.",
       "highlights": [
         "Stack: Macromedia Flash, Adobe illustrator, Adobe Photoshop"
       ]
