@@ -44,7 +44,7 @@
         "Utilized New Relic and Splunk for identifying underperforming flows, issues and bottlenecks.",
         "Optimized code to improve performance and scalability.",
         "Documented new and undocumented services.",
-        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongo, jenkins, docker, docker-compose, IBM datapower, artifactory"
+        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongo, jenkins, docker, docker-compose, IBM datapower, artifactory, splunk, new relic"
       ]
     },
     {
