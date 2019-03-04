@@ -38,7 +38,13 @@
       "website": "https://www.coxautoinc.com",
       "startDate": "2018-08-08",
       "endDate": "2019-03-01",
-      "summary": "Worked on full stack Python Django React applications. Dockerized/Docker-composed existing systems and networks. Documented numerous new projects and undocumented services. Created Jenkins Groovy scripts for job pipelines to automate, upload, build, and deploy new images to Artifactory. Optimized code to improve performance and scalability. Utilized New Relic and Splunk to focus on refactoring highly used code, and to identify performance issues."
+      "summary": "Worked as a Full Stack Python Engineer in Finance & Insurance, with a focus on Docker Container infrastructure, Pipelines in CI/CD and SOA Appliances. Analyze & improve current architecture and Increase performance of services and the platform.",
+      "highlights": [
+        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges.",
+        "Utilized New Relic and Splunk for identifying underperforming flows, issues and bottlenecks.",
+        "Optimized code to improve performance and scalability.",
+        "Documented new and undocumented services."
+      ]
     },
     {
       "company": "Price Waterhouse Coopers",
@@ -48,11 +54,11 @@
       "endDate": "2018-07-02",
       "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. I worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
-        "Debugged React and Django integrations",
-        "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django",
-        "Refactored Python applications for Snaplogic pipelines",
+        "Debugged React and Django integrations.",
+        "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django.",
+        "Refactored Python applications for Snaplogic pipelines.",
         "",
-        "Built vSEC lab environments to mimic possible virtualized security solution configurations",
+        "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
       ]
     },
@@ -64,13 +70,13 @@
       "endDate": "2017-10-17",
       "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Defined multi-year platform strategy adjusting to new technologies and requirements as they evolve. Drove cloud technology discussions and facilitated decisions with other teams within the organization. Kept abreast of and gained expertise in the evolving technology and understand how new technologies could be applied to Cloud offering.",
       "highlights": [
-        "Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform",
-        "Research, test and understand the value of a containerized cloud offerings",
-        "Build REST APIs to match specs provided by other teams to deliver needed functionality",
-        "Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions",
-        "Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc",
-        "Work with product owners and other functional teams to translate the roadmap into releases",
-        "Drive technical designs to consensus and approval",
+        "Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform.",
+        "Research, test and understand the value of a containerized cloud offerings.",
+        "Build REST APIs to match specs provided by other teams to deliver needed functionality.",
+        "Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions.",
+        "Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc.",
+        "Work with product owners and other functional teams to translate the roadmap into releases.",
+        "Drive technical designs to consensus and approval.",
         "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
       ]
     },
@@ -82,18 +88,18 @@
       "endDate": "2017-07-06",
       "summary": "Worked on transitioning Columbia University to a Python stack while maintaining compatibility with older technologies. This included: 1) creating and implementing a server flow working with older components to make sure nothing breaks 2) recreating improved versions of older applications with the Python stack, and 3) creating middleware for older apps to interact with new technologies.",
       "highlights": [
-        "Built Full Stack Python Applications for the University",
+        "Built Full Stack Python Applications for the University.",
         "Wrote Python scripts to parse JSON documents and load the data in database.",
-        "Created automated ETL tool from the ground up to transfer from JSON, CSV, TSV, to database daily",
-        "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly",
-        "Built REST APIs to serve out data from databases to legacy systems",
-        "Programmatically established levels of authorized access to restrict-allow systems REST API access",
-        "Created automated script to make REST api calls with server, parse output report to excel files daily",
-        "Used GIT, JIRA, and ServiceNOW for version control and to handle project issues, workflow and tickets",
-        "Created and planned out the server flow infrastructure for python web app stack for Columbia University",
-        "Follows Agile SDLC, made sure code is always up to PEP8 standards, and servers (with code) pass unit & load tests",
-        "Create big data apps using existing data from multiple databases at Columbia, prep for Hadoop, demo monthly data using Tableau",
-        "Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not",
+        "Created automated ETL tool from the ground up to transfer from JSON, CSV, TSV, to database daily.",
+        "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly.",
+        "Built REST APIs to serve out data from databases to legacy systems.",
+        "Programmatically established levels of authorized access to restrict-allow systems REST API access.",
+        "Created automated script to make REST api calls with server, parse output report to excel files daily.",
+        "Used GIT, JIRA, and ServiceNOW for version control and to handle project issues, workflow and tickets.",
+        "Created and planned out the server flow infrastructure for python web app stack for Columbia University.",
+        "Follows Agile SDLC, made sure code is always up to PEP8 standards, and servers (with code) pass unit & load tests.",
+        "Create big data apps using existing data from multiple databases at Columbia, prep for Hadoop, demo monthly data using Tableau.",
+        "Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not.",
         "Stack: Python3, python2, GIT, Flask/Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow, Unix Bash/Shell Script, CRON, JavaScript, Nodejs, JSON, Tableau, ETL, Data Warehousing"
       ]
     },
@@ -105,9 +111,9 @@
       "endDate": "2017-11-11",
       "summary": "BrainyMaps was established after winning AngelHack 2016 Manhattan. My partner and I adjusted our winning concept and conceived Go Go Banana, which is a web app allows the user to see events as they occur from geo tagged tweets to Event Brite events. Based on your location you will be exposed REAL TIME to information in REAL TIME, based on their location!",
       "highlights": [
-        "Implement Google Maps for our platform and style it for plotting our data",
-        "Create menu using React.JS for restful api CRUD events for events management and notifications",
-        "Recreating app in React Native with focus on iOS"
+        "Implement Google Maps for our platform and style it for plotting our data.",
+        "Create menu using React.JS for restful api CRUD events for events management and notifications.",
+        "Recreating app in React Native with focus on iOS."
       ]
     },
     {
@@ -116,7 +122,7 @@
       "website": "http://thinkful.com",
       "startDate": "2015-06-18",
       "endDate": "2016-04-06",
-      "summary": "Educating learners or students who wish to pursue careers in web development or python",
+      "summary": "Educating learners or students who wish to pursue careers in web development or python.",
       "highlights": [
         "Mentor students in web development as they work through a project-based curriculum.",
         "Guide students through the challenges of becoming a developer.",
@@ -131,9 +137,9 @@
       "endDate": "2016-07-01",
       "summary": "Tasked to deliver a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-bench.",
       "highlights": [
-        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
-        "Developed page to let users sort the received api feed and browse by location, job function, category",
-        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries"
+        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs.",
+        "Developed page to let users sort the received api feed and browse by location, job function, category.",
+        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries."
       ]
     },
     {
@@ -142,13 +148,13 @@
       "website": "http://basicsplus.com",
       "startDate": "2015-01-15",
       "endDate": "2015-06-01",
-      "summary": "Tasked to deliver an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC",
+      "summary": "Tasked to deliver an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC.",
       "highlights": [
-        "Developed an e-commerce solution to ensure the company developed as a national online retailer",
-        "Onboarded and trained the team for Full stack Web Development and the SEO team",
-        "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking",
-        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords",
-        "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
+        "Developed an e-commerce solution to ensure the company developed as a national online retailer.",
+        "Onboarded and trained the team for Full stack Web Development and the SEO team.",
+        "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking.",
+        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords.",
+        "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore.",
         "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
       ]
     },
@@ -158,13 +164,13 @@
       "website": "http://citytech.cuny.edu",
       "startDate": "2014-01-01",
       "endDate": "2015-01-01",
-      "summary": "Assisted professors instruct courses",
+      "summary": "Assisted professors instruct courses.",
       "highlights": [
-        "Evaluate course plans",
-        "Teach and troubleshoot code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students",
-        "Gave demos on emerging technologies",
-        "Ensured equipment readiness for classes",
-        "Performed woodwork, arc welding, wood shop maintenance",
+        "Evaluate course plans.",
+        "Teach and troubleshoot code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students.",
+        "Gave demos on emerging technologies.",
+        "Ensured equipment readiness for classes.",
+        "Performed woodwork, arc welding, wood shop maintenance.",
         "Stack: Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers"
       ]
     },
@@ -174,11 +180,11 @@
       "website": "http://thekisfoundation.org",
       "startDate": "2010-06-01",
       "endDate": "2017-09-18",
-      "summary": "Helped celebrities raise awareness for sickle cell disease by providing an online experience",
+      "summary": "Helped celebrities raise awareness for sickle cell disease by providing an online experience.",
       "highlights": [
-        "Migrated existing site from Joomla to Wordpress",
-        "Developed a customized redesigned Wordpress theme for posting latest updates and charity events",
-        "Updated the sites code, design and feel annually",
+        "Migrated existing site from Joomla to Wordpress.",
+        "Developed a customized redesigned Wordpress theme for posting latest updates and charity events.",
+        "Updated the sites code, design and feel annually.",
         "Stack: Wordpress, Joomla, MySQL, PHP, HTML, CSS, JavaScript, Adobe Photoshop"
       ]
     },
@@ -199,7 +205,7 @@
       "website": "http://www.mec.cuny.edu/",
       "startDate": "2010-09-30",
       "endDate": "2010-12-01",
-      "summary": "Working with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns",
+      "summary": "Working with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns.",
       "highlights": [
         "Stack: Macromedia Flash, Adobe illustrator, Adobe Photoshop"
       ]
@@ -252,7 +258,7 @@
       "title": "AngelHack 2016 Manhattan",
       "date": "2016-06-04",
       "awarder": "AngelHack",
-      "summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app to eliminate the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to the desired destination by comparing the Uber car service and public transportation. Target users are New Yorkers who understand the fast pace of New York City life. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS"
+      "summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app to eliminate the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to the desired destination by comparing the Uber car service and public transportation. Target users are New Yorkers who understand the fast pace of New York City life. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS."
     }
   ],
   "references": [
