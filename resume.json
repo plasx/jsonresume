@@ -43,7 +43,8 @@
         "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges.",
         "Utilized New Relic and Splunk for identifying underperforming flows, issues and bottlenecks.",
         "Optimized code to improve performance and scalability.",
-        "Documented new and undocumented services."
+        "Documented new and undocumented services.",
+        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongo, jenkins, docker, docker-compose, IBM datapower, artifactory"
       ]
     },
     {
