@@ -5,7 +5,7 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "10 years of experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I am addicted to testing out new frameworks and programming languages I love enabling older applications to work with present day technologies. I love front end and back end stacks, even the multiple layers under them! I love hacking hardware and making things do what they weren't intended for and discovering new uses. I imagine one day I'll be able to code a Nintendo game in assembly :)",
+    "summary": "10 years of experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I am addicted to testing out new frameworks and programming languages I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them! I love hacking hardware and making things do what they weren't intended for and discovering new uses. I imagine one day I'll be able to code a Nintendo game in assembly :)",
     "location": {
       "address": "164 E 112th St",
       "postalCode": "NY 10029",
@@ -37,6 +37,7 @@
       "position": "Sr. Python Full Stack Engineer - Contractor",
       "website": "https://www.coxautoinc.com",
       "startDate": "2018-08-08",
+      "endDate": "2019-03-01",
       "summary": "Worked on full stack Python Django React applications. Dockerized/Docker-composed existing systems and networks. Documented numerous new projects and undocumented services. Created Jenkins Groovy scripts for job pipelines to automate, upload, build, and deploy new images to Artifactory. Optimized code to improve performance and scalability. Utilized New Relic and Splunk to focus on refactoring highly used code, and to identify performance issues."
     },
     {
