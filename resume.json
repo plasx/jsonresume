@@ -33,6 +33,16 @@
   },
   "work": [
     {
+      "company": "Capital One",
+      "position": "App Dev Python Guru - Contractor",
+      "website": "https://www.capitalone.com",
+      "startDate": "2019-05-13",
+      "endDate": "2019-08-22",
+      "summary": "Risk Rating needed to move away from vendor locked solution. I discussed with the team how to create a new platform featuring aspects of its predecessor. I reviewed our ideas and brought them to fruition by developing initial POC’s proving technologies. I broke epics into stories for the team. I provided code reviews, developed several micro services including but not limited to running data models for computing lenders “Probability of default”. I also put in extra effort to ensure dockerization of services. I offered highly detailed documentation per micro service and python package. Results ended up being a dockerized microservices with clear documentation provided.",
+      "highlights": [
+        "Stack: Python, flask, sqlalchemy, oracle, postgres, jenkins, docker, docker-compose, artifactory, datadog, kubana"]
+    },
+    {
       "company": "Cox Automotive",
       "position": "Sr. Python Full Stack Engineer - Contractor",
       "website": "https://www.coxautoinc.com",
