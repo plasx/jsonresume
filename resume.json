@@ -5,7 +5,7 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "10 years of experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I am addicted to testing out new frameworks and programming languages I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them! I love hacking hardware and making things do what they weren't intended for and discovering new uses. I imagine one day I'll be able to code a Nintendo game in assembly :)",
+    "summary": "Over a decade of experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I am addicted to testing out new frameworks and programming languages. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
     "location": {
       "address": "164 E 112th St",
       "postalCode": "NY 10029",
@@ -33,61 +33,17 @@
   },
   "work": [
     {
-      "company": "Capital One",
-      "position": "App Dev Python Guru - Contractor",
-      "website": "https://www.capitalone.com",
-      "startDate": "2019-05-13",
-      "endDate": "2019-08-22",
-      "summary": "Risk Rating needed to move away from vendor locked solution. I discussed with the team how to create a new platform featuring aspects of its predecessor. I reviewed our ideas and brought them to fruition by developing initial POC’s proving technologies. I broke epics into stories for the team. I provided code reviews, developed several micro services including but not limited to running data models for computing lenders “Probability of default”. I also put in extra effort to ensure dockerization of services. I offered highly detailed documentation per micro service and python package. Results ended up being a dockerized microservices with clear documentation provided.",
-      "highlights": [
-        "Stack: Python, flask, sqlalchemy, oracle, postgres, jenkins, docker, docker-compose, artifactory, datadog, kubana"]
-    },
-    {
-      "company": "Cox Automotive",
-      "position": "Sr. Python Full Stack Engineer - Contractor",
-      "website": "https://www.coxautoinc.com",
-      "startDate": "2018-08-08",
-      "endDate": "2019-03-01",
-      "summary": "Worked as a Full Stack Python Engineer in Finance & Insurance, with a focus on Docker Container infrastructure, Pipelines in CI/CD and SOA Appliances. Analyze & improve current architecture and Increase performance of services and the platform.",
-      "highlights": [
-        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges.",
-        "Utilized New Relic and Splunk for identifying underperforming flows, issues and bottlenecks.",
-        "Optimized code to improve performance and scalability.",
-        "Documented new and undocumented services.",
-        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongo, jenkins, docker, docker-compose, IBM datapower, artifactory, splunk, new relic"
-      ]
-    },
-    {
-      "company": "Price Waterhouse Coopers",
-      "position": "Developer - Contractor",
-      "website": "http://pwc.com",
-      "startDate": "2017-12-04",
-      "endDate": "2018-07-02",
-      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. Worked at PwC offices in San Jose, and in San Francisco for this role.",
-      "highlights": [
-        "Debugged React and Django integrations.",
-        "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django.",
-        "Refactored Python applications for Snaplogic pipelines.",
-        "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
-        "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
-      ]
-    },
-    {
-      "company": "Bank of America",
-      "position": "Application Architect V - Contractor",
-      "website": "http://bankofamerica.com",
+      "company": "UltraPython LLC",
+      "position": "Consultant",
       "startDate": "2017-07-10",
-      "endDate": "2017-10-17",
-      "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Defined multi-year platform strategy adjusting to new technologies and requirements as they evolve. Drove cloud technology discussions and facilitated decisions with other teams within the organization. Kept abreast of and gained expertise in the evolving technology and understand how new technologies could be applied to Cloud offering.",
+      "summary": "Working in California, New York, and New Jersey with clients such as Bank Of America, Price Waterhouse Coopers, Cox Automotive/Dealertrack, and Capital One.",
       "highlights": [
-        "Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform.",
-        "Research, test and understand the value of a containerized cloud offerings.",
+        "Stay current with trends and incorporate emerging technologies to benefit the customer.",
         "Build REST APIs to match specs provided by other teams to deliver needed functionality.",
         "Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions.",
-        "Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc.",
-        "Work with product owners and other functional teams to translate the roadmap into releases.",
+        "Work with product owners and other functional teams to translate the road map into releases.",
         "Drive technical designs to consensus and approval.",
-        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
+        "Stack: Docker, Python2, Python3, Django, Flask, Celery, SQLAlchemy, Sqlite, Oracle, Postgres, MongoDB, Javascript, React, Jenkins, Artifactory, Splunk, New Relic, Git, Microsoft Azure, Terraform, Packer"
       ]
     },
     {
@@ -114,45 +70,6 @@
       ]
     },
     {
-      "company": "Brainy Maps",
-      "position": "President",
-      "website": "https://gogobanana.net/",
-      "startDate": "2016-06-01",
-      "endDate": "2017-11-11",
-      "summary": "Based on your location you will be exposed real time to information in real time, based on their location!",
-      "highlights": [
-        "Implement Google Maps for our platform and style it for plotting our data.",
-        "Create menu using React.JS for restful api CRUD events for events management and notifications.",
-        "Recreating app in React Native with focus on iOS."
-      ]
-    },
-    {
-      "company": "Thinkful",
-      "position": "Python & Front-end Web Development Mentor",
-      "website": "http://thinkful.com",
-      "startDate": "2015-06-18",
-      "endDate": "2016-04-06",
-      "summary": "Educated learners or students who wished to pursue careers in web development or python.",
-      "highlights": [
-        "Mentor students in web development as they work through a project-based curriculum.",
-        "Guide students through the challenges of becoming a developer.",
-        "Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects."
-      ]
-    },
-    {
-      "company": "Work-Bench",
-      "position": "Part Time Developer",
-      "website": "http://www.work-bench.com",
-      "startDate": "2015-11-12",
-      "endDate": "2016-07-01",
-      "summary": "Delivered a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-Bench.",
-      "highlights": [
-        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs.",
-        "Developed page to let users sort the received api feed and browse by location, job function, category.",
-        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries."
-      ]
-    },
-    {
       "company": "Basics Plus",
       "position": "Lead Full Stack Developer",
       "website": "http://basicsplus.com",
@@ -166,58 +83,6 @@
         "Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords.",
         "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore.",
         "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
-      ]
-    },
-    {
-      "company": "New York City College Of Technology",
-      "position": "College Laboratory Technician",
-      "website": "http://citytech.cuny.edu",
-      "startDate": "2014-01-01",
-      "endDate": "2015-01-01",
-      "summary": "Assisted professors instruct courses.",
-      "highlights": [
-        "Evaluate course plans.",
-        "Teach and troubleshoot code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students.",
-        "Gave demos on emerging technologies.",
-        "Ensured equipment readiness for classes.",
-        "Performed woodwork, arc welding, wood shop maintenance.",
-        "Stack: Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers"
-      ]
-    },
-    {
-      "company": "The K.I.S. Foundation, Inc.",
-      "position": "Part Time Full Stack PHP Developer",
-      "website": "http://thekisfoundation.org",
-      "startDate": "2010-06-01",
-      "endDate": "2017-09-18",
-      "summary": "Helped celebrities raise awareness for sickle cell disease by providing an online experience.",
-      "highlights": [
-        "Migrated existing site from Joomla to Wordpress.",
-        "Developed a customized redesigned Wordpress theme for posting latest updates and charity events.",
-        "Updated the sites code, design and feel annually.",
-        "Stack: Wordpress, Joomla, MySQL, PHP, HTML, CSS, JavaScript, Adobe Photoshop"
-      ]
-    },
-    {
-      "company": "The Next Phase Entertainment, LLC.",
-      "position": "Part Time Full Stack PHP Developer",
-      "website": "http://weaproblem.com",
-      "startDate": "2009-06-01",
-      "endDate": "2013-12-30",
-      "summary": "Conceptualized, styled and developed unique websites for multiple artists under the Next Phase Entertainment label.",
-      "highlights": [
-        "Stack: WordPress, PhpMyAdmin, MySQL, PHP, HTML5, CSS3, Jquery, Twitter Bootstrap, Adobe Photoshop"
-      ]
-    },
-    {
-      "company": "Medgar Evers College",
-      "position": "Flash Animator & GFX Artist Intern",
-      "website": "http://www.mec.cuny.edu/",
-      "startDate": "2010-09-30",
-      "endDate": "2010-12-01",
-      "summary": "Worked with Macromedia Flash, Created display animations for the TV Screens on campus. Work includes Thanksgiving, Christmas, and environmental ad campaigns.",
-      "highlights": [
-        "Stack: Macromedia Flash, Adobe illustrator, Adobe Photoshop"
       ]
     }
   ],
@@ -243,7 +108,6 @@
   {
     "institution": "Borough of Manhattan Community College",
     "area": "Multimedia Programming & Design",
-    "studyType": "Associates",
     "startDate": "2005-01-16",
     "endDate": "2010-12-15",
     "gpa": "",
@@ -251,7 +115,6 @@
   },
   {
     "institution": "School of Cooperative Technical Education",
-    "area": "Multimedia Programming & Design",
     "startDate": "2003-12-23",
     "endDate": "2005-01-05",
     "courses": ["Cisco Networking Academy", "A+ CompTIA Computer Repair Training"]
