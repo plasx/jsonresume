@@ -35,15 +35,73 @@
     {
       "company": "UltraPython LLC",
       "position": "Consultant",
-      "startDate": "2017-07-10",
-      "summary": "Working with clients such as Bank Of America, Price Waterhouse Coopers, Cox Automotive/Dealertrack, and Capital One.",
+      "startDate": "2018-02-10",
+      "summary": "Working providing various consulting services utilizing Python programming language and the infrastructure supporting it",
       "highlights": [
-        "Stay current with trends and incorporate emerging technologies to benefit the customer.",
+        "Stay current with trends and incorporate emerging technologies to benefit the client.",
+        "Build REST APIs to match client specs provided to deliver needed functionality.",
+        "Build Proof Of Concepts for clients",
+        "Review road maps and provide time frames for projects",
+        "Build tech stack requirements for clients",
+        "Stack: Docker, Python2, Python3, Django, Flask, Celery, SQLAlchemy, Sqlite, Oracle, Postgres, MongoDB, Javascript, React, Jenkins, Artifactory, Splunk, New Relic, Git, Microsoft Azure, AWS, Terraform, Packer"
+      ]
+    },
+        {
+      "company": "Capital One",
+      "position": "App Dev Python Guru - Contractor",
+      "website": "https://www.capitalone.com",
+      "startDate": "2019-05-13",
+      "endDate": "2019-08-22",
+      "summary": "Risk Rating needed to move away from vendor locked solution. I discussed with the team how to create a new platform featuring aspects of its predecessor. I reviewed our ideas and brought them to fruition by developing initial POC’s proving technologies. I broke epics into stories for the team. I provided code reviews, developed several micro services including but not limited to running data models for computing lenders “Probability of default”. I also put in extra effort to ensure dockerization of services. I offered highly detailed documentation per micro service and python package. Results ended up being a dockerized microservices with clear documentation provided.",
+      "highlights": [
+        "Stack: Python, flask, sqlalchemy, oracle, postgres, jenkins, docker, docker-compose, artifactory"]
+    },
+    {
+      "company": "Cox Automotive",
+      "position": "Sr. Python Full Stack Engineer - Contractor",
+      "website": "https://www.coxautoinc.com",
+      "startDate": "2018-08-08",
+      "endDate": "2019-03-01",
+      "summary": "Worked as a Full Stack Python Engineer in Finance & Insurance, with a focus on Docker Container infrastructure, Pipelines in CI/CD and SOA Appliances. Analyze & improve current architecture and Increase performance of services and the platform.",
+      "highlights": [
+        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges.",
+        "Utilized New Relic and Splunk for identifying under performing flows, issues and bottlenecks.",
+        "Optimized code to improve performance and scalability.",
+        "Documented new and undocumented services.",
+        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongodb, jenkins, docker, docker-compose, IBM datapower, artifactory, splunk, new relic"
+      ]
+    },
+    {
+      "company": "Price Waterhouse Coopers",
+      "position": "Developer - Contractor",
+      "website": "http://pwc.com",
+      "startDate": "2017-12-04",
+      "endDate": "2018-07-02",
+      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. Worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "highlights": [
+        "Debugged React and Django integrations.",
+        "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django.",
+        "Refactored Python applications for SnapLogic data pipelines.",
+        "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
+        "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
+      ]
+    },
+    {
+      "company": "Bank of America",
+      "position": "Application Architect V - Contractor",
+      "website": "http://bankofamerica.com",
+      "startDate": "2017-07-10",
+      "endDate": "2017-10-17",
+      "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state. Defined multi-year platform strategy adjusting to new technologies and requirements as they evolve. Drove cloud technology discussions and facilitated decisions with other teams within the organization. Kept abreast of and gained expertise in the evolving technology and understand how new technologies could be applied to Cloud offering.",
+      "highlights": [
+        "Stay current with IAAS & PAAS trends and incorporate emerging technology to benefit the platform.",
+        "Research, test and understand the value of a containerized cloud offerings.",
         "Build REST APIs to match specs provided by other teams to deliver needed functionality.",
         "Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions.",
+        "Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards, etc.",
         "Work with product owners and other functional teams to translate the road map into releases.",
         "Drive technical designs to consensus and approval.",
-        "Stack: Docker, Python2, Python3, Django, Flask, Celery, SQLAlchemy, Sqlite, Oracle, Postgres, MongoDB, Javascript, React, Jenkins, Artifactory, Splunk, New Relic, Git, Microsoft Azure, Terraform, Packer"
+        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
       ]
     },
     {
@@ -56,17 +114,55 @@
       "highlights": [
         "Built Full Stack Python Applications for the University.",
         "Wrote Python scripts to parse JSON documents and load the data in database.",
-        "Created automated ETL tool from the ground up to transfer from JSON, CSV, TSV, to database daily.",
+        "Created automated tools from the ground up to transfer from JSON, CSV, TSV, to database daily.",
         "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly.",
         "Built REST APIs to serve out data from databases to legacy systems.",
         "Programmatically established levels of authorized access to restrict-allow systems REST API access.",
-        "Created automated script to make REST api calls with server, parse output report to excel files daily.",
-        "Used GIT, JIRA, and ServiceNOW for version control and to handle project issues, workflow and tickets.",
+        "Created automated scripts to make REST api calls with server, parse output report to excel files daily.",
+        "Used GIT, JIRA for version control and to handle project issues, workflow and tickets.",
         "Created and planned out the server flow infrastructure for python web app stack for Columbia University.",
         "Follows Agile SDLC, made sure code is always up to PEP8 standards, and servers (with code) pass unit & load tests.",
-        "Create big data apps using existing data from multiple databases at Columbia, prep for Hadoop, demo monthly data using Tableau.",
-        "Expose flaws, exploits, problems and solutions during scrums, quickly figure out if requirements provided are impossible or not.",
-        "Stack: Python3, python2, GIT, Flask/Blueprint, Service-Now, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, ServiceNow, Unix Bash/Shell Script, CRON, JavaScript, Nodejs, JSON, Tableau, ETL, Data Warehousing"
+        "Quickly figured out if requirements provided are impossible or not.",
+        "Stack: Python3, python2, GIT, Flask/Blueprint, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, Unix Bash/Shell Script, CRON, JavaScript, Nodejs, JSON"
+      ]
+    },
+    {
+      "company": "Brainy Maps",
+      "position": "President",
+      "website": "https://gogobanana.net/",
+      "startDate": "2016-06-01",
+      "endDate": "2017-11-11",
+      "summary": "Based on your location you will be exposed real time to information in real time, based on their location!",
+      "highlights": [
+        "Implement Google Maps for our platform and style it for plotting our data.",
+        "Create menu using React.JS for restful api CRUD events for events management and notifications.",
+        "Recreating app in React Native with focus on iOS."
+      ]
+    },
+    {
+      "company": "Thinkful",
+      "position": "Python & Front-end Web Development Mentor",
+      "website": "http://thinkful.com",
+      "startDate": "2015-06-18",
+      "endDate": "2016-04-06",
+      "summary": "Educated learners or students who wished to pursue careers in web development or python.",
+      "highlights": [
+        "Mentor students in web development as they work through a project-based curriculum.",
+        "Guide students through the challenges of becoming a developer.",
+        "Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects."
+      ]
+    },
+    {
+      "company": "Work-Bench",
+      "position": "Part Time Developer",
+      "website": "http://www.work-bench.com",
+      "startDate": "2015-11-12",
+      "endDate": "2016-07-01",
+      "summary": "Delivered a dynamic interactive mobile friendly/mobile first revamp of the careers page for individuals to find open positions at all the companies that started at Work-Bench.",
+      "highlights": [
+        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs.",
+        "Developed page to let users sort the received api feed and browse by location, job function, category.",
+        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries."
       ]
     },
     {
@@ -78,9 +174,9 @@
       "summary": "Delivered an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC.",
       "highlights": [
         "Developed an e-commerce solution to ensure the company developed as a national online retailer.",
-        "Onboarded and trained the team for Full stack Web Development and the SEO team.",
+        "On boarded and trained the team for Full stack Web Development and the SEO team.",
         "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking.",
-        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Remarketing Code and E-Commerce Tracking in Magento for adwords.",
+        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Re-marketing Code and E-Commerce Tracking in Magento for adwords.",
         "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore.",
         "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
       ]
