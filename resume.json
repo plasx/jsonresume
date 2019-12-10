@@ -34,7 +34,7 @@
   "work": [
     {
       "company": "UltraPython LLC",
-      "position": "Consultant",
+      "position": "Application Architect",
       "startDate": "2018-02-10",
       "summary": "Working providing various consulting services utilizing Python programming language and the infrastructure supporting it",
       "highlights": [
@@ -46,9 +46,19 @@
         "Stack: Docker, Python2, Python3, Django, Flask, Celery, SQLAlchemy, Sqlite, Oracle, Postgres, MongoDB, Javascript, React, Jenkins, Artifactory, Splunk, New Relic, Git, Microsoft Azure, AWS, Terraform, Packer"
       ]
     },
-        {
+    {
+      "company": "Price Waterhouse Coopers",
+      "position": "Developer - Contractor",
+      "website": "http://pwc.com",
+      "startDate": "2019-12-04",
+      "summary": "Django",
+      "highlights": [
+        "Stack: Python3, Django"
+      ]
+    },
+    {
       "company": "Capital One",
-      "position": "App Dev Python Guru - Contractor",
+      "position": "Master Software Engineer - Contractor",
       "website": "https://www.capitalone.com",
       "startDate": "2019-05-13",
       "endDate": "2019-08-22",
@@ -77,10 +87,10 @@
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
       "endDate": "2018-07-02",
-      "summary": "Took ownership of implementation of VPN technologies into PaaS (Platform As a Service). While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. Worked at PwC offices in San Jose, and in San Francisco for this role.",
+      "summary": "Took ownership of implementation of VPN technologies into the companies internal tax audit platform. While in charge of setting up VPN Infrastructure on Azure, used Docker and Docker-Compose to have VPN containers launched when initiated by the PaaS. Worked at PwC offices in San Jose, and in San Francisco for this role.",
       "highlights": [
         "Debugged React and Django integrations.",
-        "Worked on VPN features for our PaaS, developed frontend, and backend solutions utilizing Django.",
+        "Worked on VPN features for our internal tax audit platform, developed frontend, and backend solutions utilizing Django.",
         "Refactored Python applications for SnapLogic data pipelines.",
         "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
