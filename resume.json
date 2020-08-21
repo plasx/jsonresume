@@ -5,7 +5,7 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "10+ years experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
+    "summary": "11+ years experience as a Full Stack Web/Application Developer passionate about modern and upcoming technologies. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
     "location": {
       "address": "40 W 135th St",
       "postalCode": "NY 10037",
@@ -33,10 +33,28 @@
   },
   "work": [
     {
+      "company": "McKinsey & Company",
+      "position": "Senior Software Engineer",
+      "website": "https://www.mckinsey.com/",
+      "startDate": "2020-05-29",
+      "summary": "Working with primary focus on data engineering initiatives at the Firm",
+      "highlights": [
+        "Worked Vendor APIs team on diagnoising causes for bottlenecks",
+        "Aided Data Democracy Initiative in unified datalake vision",
+        "Worked with various teams on preparing their data for the datalake",
+        "Build enterprise grade pipelines that are able to perform ETL on 100s of gigbytes of data and send data to S3",
+        "Craft intelligent systems which can alert engineer team if theres inconsistencies",
+        "Architect roadmaps, diagrams, and plans for various stages of development.",
+        "Work with risk to ensure data meets the Firms data classification policy",
+        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3"
+      ]
+    },
+    {
       "company": "Price Waterhouse Coopers",
-      "position": "Software Engineering Consultant - Contractor",
+      "position": "Software Engineer - Contractor",
       "website": "http://pwc.com",
       "startDate": "2019-12-04",
+      "endDate": "2020-03-20",
       "summary": "Created PwC's Data Landscape, an analyzer to determine the risk level of data provided by a client.",
       "highlights": [
         "Created the backend for the React SPA to consume.",
@@ -78,7 +96,7 @@
     },
     {
       "company": "Price Waterhouse Coopers",
-      "position": "Software Engineering Consultant - Contractor",
+      "position": "Software Engineer - Contractor",
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
       "endDate": "2018-07-02",
@@ -241,9 +259,9 @@
   },
   {
     "institution": "School of Cooperative Technical Education",
+    "area": "Cisco Networking And CompTIA PC Repair Training",
     "startDate": "2003-12-23",
-    "endDate": "2005-01-05",
-    "courses": ["Cisco Networking Academy", "A+ CompTIA Computer Repair Training"]
+    "endDate": "2005-01-05"
   }
   ],
   "awards": [
