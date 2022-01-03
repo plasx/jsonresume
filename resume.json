@@ -48,7 +48,7 @@
         "Architect roadmaps, diagrams, and plans for various stages of development.",
         "Build systems to grab Splunk logs for data analytics dashboard needs",
         "Work with risk to ensure data meets the Firms data classification policy",
-        "Build snowpipes and snowstages for externally staged data in Azure Blob and AWS S3",
+        "Build snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
         "Built out asynchronous python applications to take maximum advantage of REST APIs to move data faster",
         "Built out Kafka data streams for product data",
         "Setup AWS API Gateways and created ETL pipelines with AWS Lambda to snowflake",
@@ -244,6 +244,12 @@
       ]
     }
   ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner"
+    }
+  ],
+
   "education": [
   {
     "institution": "Hunter College",
