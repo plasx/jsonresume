@@ -5,7 +5,7 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "12+ years of experience in software engineering, passionate about modern and upcoming technologies. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
+    "summary": "13+ years of experience in software engineering, passionate about modern and upcoming technologies. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
     "location": {
       "address": "40 W 135th St",
       "postalCode": "NY 10037",
@@ -39,7 +39,7 @@
   "work": [
     {
       "company": "McKinsey & Company",
-      "position": "Senior Software Engineer",
+      "position": "Lead Senior Software Engineer",
       "website": "https://www.mckinsey.com/",
       "startDate": "2020-05-29",
       "summary": "Lead data engineering for various teams tasked with data analytics and insights needs. I am responsible for end-to-end solutions that enable teams with the ability to gain analytics and insights from their data.",
