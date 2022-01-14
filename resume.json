@@ -42,27 +42,22 @@
       "position": "Lead Senior Software Engineer",
       "website": "https://www.mckinsey.com/",
       "startDate": "2020-05-29",
-      "summary": "Lead data engineering for various teams tasked with data analytics and insights needs. I am responsible for end-to-end solutions that enable teams with the ability to gain analytics and insights from their data.",
+      "summary": "Lead data engineering for multiple teams tasked with data analytics and insights needs. I am responsible for end-to-end solutions that enable teams with the ability to gain analytics and insights from their data.",
       "highlights": [
-        "Architect roadmaps, diagrams, and plans for various stages of development.",
+        "Lead data engineering proof of concept prototypes, pipeline designs and final implementation",
+        "Direct technical refinement of vendors' data technologies at The Firm",
+        "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
+        "Architect roadmaps, diagrams, and plans for multiple stages of development",
         "Conceptualize & lead workshops on how to send various data sources into snowflake",
-        "Working heavily with many vendors to improve the reliability of used data technologies at The Firm.",
-        "Working on the unified data lake initiative for The Firm guiding them to better data insights.",
-        "Build and maintain multiple asynchronous heavy duty data pipelines, providing the backbone for our Firm's data analytics.",
-        "Built out asynchronous python applications to take maximum advantage of REST APIs to move data faster",
-        "Create Kafka & Kinesis data streams for product data",
-        "Lead data engineering, vendor communications, proof of concept prototypes, pipeline designs and final implementation.",
-        "Worked with vendor APIs team on diagnosing causes for bottlenecks",
-        "Working with big data, data streaming technologies",
-        "Worked with various teams on preparing their data for the datalake",
-        "Build enterprise grade pipelines that are able to perform asynchronous ETL on 100s of gigbytes of data and send data to S3",
-        "Craft intelligent systems which can alert engineer team if there's data inconsistencies",
-        "Build systems to grab Splunk logs for data analytics dashboard needs",
-        "Work with risk to ensure data meets the Firms data classification policy",
-        "Build snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Built out asynchronous python applications to take maximum advantage of REST APIs to move data faster",
-        "Setup AWS API Gateways and created ETL pipelines with AWS Lambda to snowflake",
-        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, Kinesis, Kafka, Lambda, IAM, API Gateway"
+        "Guide unified data lake initiative to better data insights for The Firm",
+        "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on of 100s of gigabytes of data daily",
+        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics",
+        "Create Kafka & Kinesis big data streams for product data",
+        "Work with diverse teams on preparing their data for the datalake",
+        "Craft intelligent systems to alert engineer teams of data inconsistencies",
+        "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
+        "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
+        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway"
       ]
     },
     {
@@ -73,10 +68,10 @@
       "endDate": "2020-03-20",
       "summary": "Created PwC's Data Landscape, an analyzer to determine the risk level of data provided by a client.",
       "highlights": [
-        "Created the backend for the React SPA to consume.",
+        "Created the backend for the React SPA to consume",
         "Learned and implemented proprietary PwC React components",
-        "Developed stakeholder's vision to detect and assess security risks of uploaded data.",
-        "Architect roadmaps, diagrams, and plans for various stages of development.",
+        "Developed stakeholder's vision to detect and assess security risks of uploaded data",
+        "Architect roadmaps, diagrams, and plans for various stages of development",
         "Stack: Docker, Django3 , Python3, Graphene, Graphql, DRF, React"
       ]
     },
@@ -88,11 +83,11 @@
       "endDate": "2019-08-22",
       "summary": "Architected/rebuilt Credit Risk Rating Platform enabling internal systems to perform risk rating of customers and facilities aiding bank decision making in credit approval process, as well as ongoing portfolio management.",
       "highlights": [
-        "Create dockerized microservices with clear documentation.",
+        "Created dockerized microservices with clear documentation",
         "Provided code reviews and broke epics into stories for the team",
-        "highly detailed documentation per micro service and python package.",
+        "Highly detailed documentation per micro service and python package",
         "Built microservice for utlizing data models for finding Probability of default of a client",
-        "Worked with team to create a new platform featuring aspects of its predecessor.",
+        "Worked with team to create a new platform featuring aspects of its predecessor",
         "Stack: Python, flask, sqlalchemy, oracle, postgres, jenkins, docker, docker-compose, artifactory"]
     },
     {
@@ -103,10 +98,10 @@
       "endDate": "2019-03-01",
       "summary": "Full Stack Python Engineer in Finance & Insurance, focused on Docker Container infrastructure, Pipelines in CI/CD and SOA Appliances. Analyzed and improved pre-existing architecture increasing performance of services and platform.",
       "highlights": [
-        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges.",
-        "Utilized New Relic and Splunk for identifying under performing flows, issues and bottlenecks.",
-        "Optimized code to improve performance and scalability.",
-        "Documented new and undocumented services.",
+        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges",
+        "Utilized New Relic and Splunk for identifying under performing flows, issues and bottlenecks",
+        "Optimized code to improve performance and scalability",
+        "Documented new and undocumented services",
         "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongodb, jenkins, docker, docker-compose, IBM datapower, artifactory, splunk, new relic"
       ]
     },
@@ -118,10 +113,10 @@
       "endDate": "2018-07-02",
       "summary": "Implemented VPN technologies into PwC internal tax audit platform on Azure. Used Docker/Docker-Compose to launch VPN containers when initiated by PaaS.",
       "highlights": [
-        "Debugged React and Django integrations.",
-        "Worked on VPN features for our internal tax audit platform, developed frontend, and backend solutions utilizing Django.",
-        "Refactored Python applications for SnapLogic data pipelines.",
-        "Built vSEC lab environments to mimic possible virtualized security solution configurations.",
+        "Debugged React and Django integrations",
+        "Worked on VPN features for our internal tax audit platform, developed frontend, and backend solutions utilizing Django",
+        "Refactored Python applications for SnapLogic data pipelines",
+        "Built vSEC lab environments to mimic possible virtualized security solution configurations",
         "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
       ]
     },
@@ -133,9 +128,9 @@
       "endDate": "2017-10-17",
       "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state.",
       "highlights": [
-        "Build REST APIs to match specs provided by other teams to deliver needed functionality.",
-        "Executes POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions.",
-        "Enforce adherence to architectural standards/principles, global product-specific guidelines, usability design standards",
+        "Built REST APIs to match specs provided by other teams to deliver needed functionality",
+        "Executed POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions",
+        "Enforced adherence to architectural standards/principles, global product-specific guidelines, usability design standards",
         "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
       ]
     },
@@ -145,15 +140,15 @@
       "website": "http://columbia.edu",
       "startDate": "2016-04-18",
       "endDate": "2017-07-06",
-      "summary": "Transitioned university to a Python stack while maintaining compatibility with legacy technologies.",
+      "summary": "Transitioned University to a Python stack while maintaining compatibility with legacy technologies.",
       "highlights": [
-        "Built Full Stack Python Applications for the University.",
-        "Wrote Python scripts to parse JSON documents and load the data in database.",
-        "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly.",
-        "Built REST APIs to serve out data from databases to legacy systems.",
-        "Programmatically established levels of authorized access to restrict-allow systems REST API access.",
-        "Created and planned out the server flow infrastructure for python web app stack for Columbia University.",
-        "Followed Agile SDLC, made sure code was always up to PEP8 standards, and servers (with code) passed unit & load tests.",
+        "Built Full Stack Python Applications for the University",
+        "Wrote Python scripts to parse JSON documents and load the data in database",
+        "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly",
+        "Built REST APIs to serve out data from databases to legacy systems",
+        "Programmatically established levels of authorized access to restrict-allow systems REST API access",
+        "Created and planned out the server flow infrastructure for python web app stack for Columbia University",
+        "Followed Agile SDLC, made sure code was always up to PEP8 standards, and servers (with code) passed unit & load tests",
         "Stack: Python3, python2, GIT, Flask/Blueprint, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, Unix Bash/Shell Script, CRON, JavaScript, Nodejs, JSON"
       ]
     },
@@ -163,11 +158,11 @@
       "website": "https://gogobanana.net/",
       "startDate": "2016-06-01",
       "endDate": "2017-11-11",
-      "summary": "Based on your location you will be exposed real time to information in real time, based on their location!",
+      "summary": "Based on your location, you will access real time local information.",
       "highlights": [
-        "Implement Google Maps for our platform and style it for plotting our data.",
-        "Create menu using React.JS for restful api CRUD events for events management and notifications.",
-        "Recreating app in React Native with focus on iOS."
+        "Implemented Google Maps for our platform and styled it for plotting our data",
+        "Created menu using React.JS for restful api CRUD events for events management and notifications",
+        "Recreated app in React Native with focus on iOS"
       ]
     },
     {
@@ -178,9 +173,9 @@
       "endDate": "2016-04-06",
       "summary": "Mentored those pursuing careers in web development or Python.",
       "highlights": [
-        "Mentor students in web development as they work through a project-based curriculum.",
-        "Guide students through the challenges of becoming a developer.",
-        "Lead weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects."
+        "Mentored students in web development as they worked through a project-based curriculum",
+        "Guided students through the challenges of becoming a developer",
+        "Led weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects"
       ]
     },
     {
@@ -189,10 +184,10 @@
       "website": "http://www.work-bench.com",
       "startDate": "2015-11-12",
       "endDate": "2016-07-01",
-      "summary": "Delivered a dynamic, interactive mobile friendly/mobile revamp of Work-Bench careers page.",
+      "summary": "Delivered dynamic, interactive mobile friendly/revamp of Work-Bench careers page.",
       "highlights": [
-        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs.",
-        "Developed page to let users sort the received api feed and browse by location, job function, category.",
+        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
+        "Developed page to let users sort the received api feed and browse by location, job function, category",
         "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries."
       ]
     },
@@ -202,13 +197,13 @@
       "website": "http://basicsplus.com",
       "startDate": "2015-01-15",
       "endDate": "2015-06-01",
-      "summary": "Constructed an unrivaled online experience that connects to the current POS system for the fast-growing chain of houseware & hardware stores in NYC.",
+      "summary": "Constructed an online experience connecting the current POS system for retail chain of houseware & hardware stores in NYC.",
       "highlights": [
-        "Developed an e-commerce solution to ensure the company developed as a national online retailer.",
-        "On boarded and trained the team for Full stack Web Development and the SEO team.",
-        "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking.",
-        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Re-marketing Code and E-Commerce Tracking in Magento for adwords.",
-        "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore.",
+        "Developed an e-commerce solution to ensure the company developed as a national online retailer",
+        "On boarded and trained the team for Full stack Web Development and the SEO team",
+        "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking",
+        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Re-marketing Code and E-Commerce Tracking in Magento for adwords",
+        "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
         "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
       ]
     },    
@@ -220,11 +215,9 @@
       "endDate": "2015-01-01",
       "summary": "Assisted professors to instruct courses.",
       "highlights": [
-        "Evaluate course plans",
-        "Teach and troubleshoot code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students",
+        "Evaluated course plans",
+        "Taught code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students",
         "Gave demos on emerging technologies",
-        "Ensured equipment readiness for classes",
-        "Performed woodwork, arc welding, wood shop maintenance",
         "Stack: Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers"
       ]
     },
