@@ -57,7 +57,7 @@
         "Craft intelligent systems to alert engineer teams of data inconsistencies",
         "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
         "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway"
+        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
       ]
     },
     {
