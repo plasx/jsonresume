@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Daniel Plas Rivera",
-    "label": "Python Full Stack Developer",
+    "label": "Lead Senior Software Engineer",
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
@@ -49,6 +49,7 @@
         "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
         "Architect roadmaps, diagrams, and plans for multiple stages of development",
         "Conceptualize & lead workshops on how to send various data sources into snowflake",
+        "Write peformance evaluations for engineers and analyst",
         "Guide unified data lake initiative to better data insights for The Firm",
         "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on of 100s of gigabytes of data daily",
         "Stand up cloud infrastructure that provides the foundation our Firm's data analytics",
