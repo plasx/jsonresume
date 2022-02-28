@@ -44,6 +44,7 @@
       "startDate": "2020-05-29",
       "summary": "Lead data engineering for multiple teams tasked with data analytics and insights needs. I am responsible for end-to-end solutions that enable teams with the ability to gain analytics and insights from their data.",
       "highlights": [
+        "Reduce The Firm's AWS expenditure rate by 99.6%, and over $17k per year, by rearchitecting AWS Serverless solutions to AWS Kinesis",
         "Lead data engineering proof of concept prototypes, pipeline designs and final implementation",
         "Direct technical refinement of vendors' data technologies at The Firm",
         "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
