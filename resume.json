@@ -53,13 +53,13 @@
         "Write peformance evaluations for engineers and analyst",
         "Guide unified data lake initiative to better data insights for The Firm",
         "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on of 100s of gigabytes of data daily",
-        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics",
+        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics using AWS CloudFormation",
         "Create Kafka & Kinesis big data streams for product data",
         "Work with diverse teams on preparing their data for the datalake",
         "Craft intelligent systems to alert engineer teams of data inconsistencies",
         "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
         "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Stack: Python, Snaplogic, Azure SQL, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
+        "Stack: Python, Snaplogic, Azure SQL, Azure Blob Storage, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, CloudFormation, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
       ]
     },
     {
