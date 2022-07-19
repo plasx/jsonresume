@@ -144,6 +144,7 @@
       "endDate": "2017-07-06",
       "summary": "Transitioned University to a Python stack while maintaining compatibility with legacy technologies.",
       "highlights": [
+        "Interviewed and selected candidates to assist on building University applications",
         "Built Full Stack Python Applications for the University",
         "Wrote Python scripts to parse JSON documents and load the data in database",
         "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly",
