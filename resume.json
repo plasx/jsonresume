@@ -47,7 +47,7 @@
         "Reduce The Firm's AWS expenditure rate by 99.6%, and over $47k per year, by rearchitecting AWS Serverless solutions to AWS Kinesis",
         "Lead data engineering proof of concept prototypes, pipeline designs and final implementation",
         "Direct technical refinement of vendors' data technologies at The Firm",
-        "Migrate several pipeline jobs to AWS Glue using an Apache Spark serverless environment."
+        "Migrate several pipeline jobs to AWS Glue using an Apache Spark serverless environment.",
         "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
         "Architect roadmaps, diagrams, and plans for multiple stages of development",
         "Conceptualize & lead workshops on how to send various data sources into snowflake",
