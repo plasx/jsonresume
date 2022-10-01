@@ -47,6 +47,7 @@
         "Reduce The Firm's AWS expenditure rate by 99.6%, and over $47k per year, by rearchitecting AWS Serverless solutions to AWS Kinesis",
         "Lead data engineering proof of concept prototypes, pipeline designs and final implementation",
         "Direct technical refinement of vendors' data technologies at The Firm",
+        "Migrate shorter pipeline jobs to AWS Glue using an Apache Spark serverless environment."
         "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
         "Architect roadmaps, diagrams, and plans for multiple stages of development",
         "Conceptualize & lead workshops on how to send various data sources into snowflake",
@@ -59,7 +60,7 @@
         "Craft intelligent systems to alert engineer teams of data inconsistencies",
         "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
         "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Stack: Python, Snaplogic, Azure SQL, Azure Blob Storage, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, CloudFormation, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
+        "Stack: Python, Snaplogic, Azure SQL, Spark, Azure Blob Storage, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, CloudFormation, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
       ]
     },
     {
