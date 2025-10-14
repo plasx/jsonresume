@@ -5,7 +5,7 @@
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "13+ years of experience in software engineering, passionate about modern and upcoming technologies. I love enabling older applications to work with present day technologies. I enjoy working with front end and back end stacks, even the multiple layers under them.",
+    "summary": "15+ years of experience in software engineering, specializing in GenAI/LLM integration, cloud infrastructure, and data engineering. Passionate about building intelligent systems that leverage AI to transform business processes. Expert in modern Python stacks, AWS architecture, and full-stack development.",
     "location": {
       "address": "40 W 135th St",
       "postalCode": "NY 10037",
@@ -39,28 +39,57 @@
   "work": [
     {
       "company": "McKinsey & Company",
+      "position": "Lead Software Architect",
+      "website": "https://www.mckinsey.com/",
+      "startDate": "2023-01-01",
+      "summary": "Architecting Big Data solutions and GenAI/LLM product development for 25+ teams. Lead end-to-end AI-powered solutions for financial services workflows, cost optimization analysis, and intelligent document processing. Drive innovation in LLM integration, multi-model AI comparison, and enterprise-scale data pipelines.",
+      "highlights": [
+        "Built intelligent document processing platform with GenAI-powered cost optimization analysis, integrating 8 LLMs in parallel (GPT-4, Claude Opus/Sonnet, Gemini, Perplexity) for multi-model comparison with real-time quality scoring across 4 dimensions (Relevance, Completeness, Actionability, Technical Accuracy)",
+        "Implemented multi-model comparison feature enabling product teams to evaluate AI model performance side-by-side with automated hallucination detection, response quality assessment, and cost-per-token analysis to inform production model selection",
+        "Architected multi-stage financial services workflow with automated opportunity identification, lever mapping using GenAI, currency conversion across 14 currencies (BPS/EUR/USD/GBP/AUD/etc), and human-in-the-loop validation system for AI-generated insights",
+        "Engineered PostgreSQL/pgvector migration from ChromaDB for embeddings storage, achieving sub-100ms similarity search performance on 100K+ vectors with proper indexing and connection pooling",
+        "Designed AWS S3 document repository infrastructure using Terraform with KMS encryption, event notifications for automated ingestion pipelines, and audit trail logging for compliance",
+        "Built multi-currency auto-conversion system supporting real-time transformation across all cost analysis tables using reactive programming patterns and efficient data transformations (EUR Mn = (BPS × AuM Bn) / 10)",
+        "Developed comprehensive unit test suite with 72+ tests covering workflow logic, data processing, currency conversion, LLM integration, and human validation workflows",
+        "Architected enterprise data lake infrastructure using AWS CloudFormation, S3, and Snowflake, enabling unified analytics across multiple business units with proper data classification and cybersecurity compliance",
+        "Led data engineering proof of concept prototypes, pipeline designs and final implementation for business-critical data sources",
+        "Directed technical refinement of vendors' data technologies, evaluating and integrating third-party solutions into enterprise data stack",
+        "Stack: Python, Streamlit, FastAPI, PostgreSQL, pgvector, Anthropic Claude API, OpenAI GPT API, Google Gemini API, Perplexity API, Terraform, AWS (S3, KMS, Lambda, Kinesis, Glue, CloudFormation), Alembic, SQLAlchemy, Asyncio, Pandas, Plotly, Snowflake, Azure Blob Storage, Docker, Kubernetes, GoCD, GitHub Actions, JIRA"
+      ]
+    },
+    {
+      "company": "McKinsey & Company",
       "position": "Lead Senior Software Engineer",
       "website": "https://www.mckinsey.com/",
       "startDate": "2020-05-29",
-      "summary": "Lead data engineering for 25+ teams, manage 100+ backend applications that pave the way to delivering data analytics and insights needs. I am responsible for end-to-end solutions that empower leadership with the ability to make decisions based on data.",
+      "endDate": "2023-01-01",
+      "summary": "Lead data engineering for multiple teams tasked with data analytics and insights needs. Responsible for end-to-end solutions managing 10+ data sources including Slack, Zoom, Microsoft Teams, SharePoint, Outlook, Box, and VPN monitoring. Built enterprise-scale data pipelines processing 100s of millions of API calls daily with automated Snowflake ingestion.",
       "highlights": [
-        "Reduce The Firm's AWS expenditure rate by 99.6%, and over $47k per year, by rearchitecting AWS Serverless solutions to AWS Kinesis",
-        "Lead data engineering proof of concept prototypes, pipeline designs and final implementation",
+        "Led Zoom Legacy Webhook Migration, architecting webhook validation pipelines with secure handshake implementation using Lambda Authorizers, recovering broken data streams and reducing API rate limit issues for enterprise-scale data ingestion",
+        "Architected Slack production data platform with 10+ AWS Glue pipelines using Pydantic for static mapping and security compliance, implementing API optimization that reduced calls from 16.5M to sub-million daily while maintaining data completeness",
+        "Deployed VPN monitoring data streaming solution on production with full AWS stack: API Gateway with WAF IP whitelisting, Lambda Authorizers, KMS-encrypted S3 buckets, Kinesis Stream/Firehose, enabling cross-channel analytics for support operations",
+        "Engineered Slack data automation in Snowflake with snowpipes, streams, tasks, and merge/upsert logic for 200-day backfills across analytics tables, implementing AWS Step Functions orchestration for dependency-based pipeline execution",
+        "Achieved 80% unit test coverage across 10+ Glue pipelines from 0%, meeting enterprise quality gate standards with comprehensive test suites covering Microsoft SharePoint, Exchange, Teams device usage, and collaboration analytics",
+        "Implemented security scanning for data engineering repository, enabling real-time SAST, secret scanning, SCA, and IAC security with pre-commit hooks, preventing credential leaks and ensuring compliance across 100+ data pipelines",
+        "Resolved 10+ critical security vulnerabilities including EC2 IMDSv2 migration, S3 CMK enforcement (replacing AWS-managed keys), WAF rule additions, SSH port 22 restrictions, and CloudFormation template security hardening for collaboration platform pipelines",
+        "Built event tracking pipeline with Terraform IaC, deploying to production with Snowflake cross-account storage integrations (DEV/TEST/PROD), upgrading AWS Glue 4.0 → 5.0 for modernized Spark environments",
+        "Optimized Microsoft Teams and Outlook pipelines by fixing SparkContext shutdown errors, GATEWAY TIMEOUT issues, and EC2 crash problems during large backfills, implementing semaphore count reduction and Graph API mapping for complete analytics datasets",
+        "Created data enrichment system for office attendance monitoring with Snowflake tasks running every 24 hours, maintaining historic snapshots with automated error monitoring and alerting for PII mapping",
+        "Reduced AWS expenditure rate by 99.6% and over $47k per year by rearchitecting AWS Serverless solutions to AWS Kinesis for high-throughput data streaming",
+        "Led Zoom 12-month backfill project for Webinar Report data, recovering historical data and ensuring completeness",
         "Direct technical refinement of vendors' data technologies at The Firm",
-        "Migrate several pipeline jobs to AWS Glue using an Apache Spark serverless environment.",
-        "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firms data classification policy",
+        "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firm's data classification policy",
         "Architect roadmaps, diagrams, and plans for multiple stages of development",
-        "Conceptualize & lead workshops on how to send various data sources into snowflake",
-        "Write peformance evaluations for engineers and analyst",
+        "Conceptualize & lead workshops on how to send various data sources into Snowflake",
         "Guide unified data lake initiative to better data insights for The Firm",
-        "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on of 100s of gigabytes of data daily",
-        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics using AWS CloudFormation",
+        "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on 100s of gigabytes of data daily",
+        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics",
         "Create Kafka & Kinesis big data streams for product data",
         "Work with diverse teams on preparing their data for the datalake",
         "Craft intelligent systems to alert engineer teams of data inconsistencies",
         "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
         "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Stack: Python, Snaplogic, Azure SQL, Spark, Azure Blob Storage, Postgres, Docker, S3, Splunk, Snowflake, Snowpipe, CloudFormation, AWS Kinesis, Kafka, AWS Lambda, IAM, API Gateway, GoCD, Kubernetes"
+        "Stack: Python, Pydantic, AWS Glue (4.0/5.0), Spark, Snowflake (Snowpipes, Streams, Tasks, Storage Integrations), AWS (Lambda, Kinesis, Firehose, S3, KMS, Step Functions, API Gateway, WAF, EC2, CloudFormation), Terraform, Slack Discovery API, Zoom Webhook API, Microsoft Graph API, Box Events API, Golden Frog, Wiz, Azure Blob Storage, Snaplogic, Docker, GoCD, Kubernetes, SonarQube, Pre-commit hooks"
       ]
     },
     {
@@ -207,7 +236,7 @@
         "On boarded and trained the team for Full stack Web Development and the SEO team",
         "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking",
         "Worked with Google Tag Implementation Team to complete the installation of Dynamic Re-marketing Code and E-Commerce Tracking in Magento for adwords",
-        "Created and managed, and implemented new features for subsidiaries’ e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
+        "Created and managed, and implemented new features for subsidiaries' e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
         "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
       ]
     },    
@@ -311,3 +340,4 @@
     }
   ]
 }
+
