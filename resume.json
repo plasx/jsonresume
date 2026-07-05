@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Daniel Plas Rivera",
-    "label": "Lead Senior Software Engineer",
+    "label": "Lead Software Engineer, AI/ML & LLM Platforms",
     "picture": "",
     "email": "plasx1987@gmail.com",
     "phone": "(212) 470-2431",
-    "summary": "15+ years of experience in software engineering, specializing in GenAI/LLM integration, cloud infrastructure, and data engineering. Passionate about building intelligent systems that leverage AI to transform business processes. Expert in modern Python stacks, AWS architecture, and full-stack development.",
+    "summary": "Lead software engineer with 15+ years shipping production systems, now focused on AI/ML platforms: LLM orchestration and agent tooling (Model Context Protocol), retrieval-augmented generation, explainable-AI citation grounding, and fine-tuned transformer models. I design multi-provider LLM gateways, vision-based document-intelligence pipelines, and hierarchical ML classifiers, then ship them end to end—from FastAPI backends to modern React/TypeScript front ends—on AWS with rigorous evals, streaming APIs, and CI/CD. Expert in modern Python, TypeScript/React, FastAPI, PyTorch/HuggingFace, and cloud infrastructure.",
     "location": {
       "address": "40 W 135th St",
       "postalCode": "NY 10037",
@@ -15,46 +15,46 @@
     },
     "profiles": [
       {
+        "network": "LinkedIn",
+        "username": "plasx",
+        "url": "https://www.linkedin.com/in/plasnyc"
+      },
+      {
+        "network": "GitHub",
+        "username": "plasx",
+        "url": "https://github.com/plasx"
+      },
+      {
         "network": "Twitter",
         "username": "plasx",
         "url": "https://twitter.com/plasx"
-      },
-      {
-      "network": "Linkedin",
-      "username": "https://www.linkedin.com/in/plasnyc",
-      "url": "https://www.linkedin.com/in/plasnyc"
-      },
-      {
-      "network": "Github",
-      "username": "plasx",
-      "url": "https://github.com/plasx"
       }
     ]
   },
-  "certificates": [
-    {
-      "name": "AWS Certified Cloud Practitioner"
-    }
-  ],
   "work": [
     {
       "company": "McKinsey & Company",
       "position": "Lead Software Architect",
       "website": "https://www.mckinsey.com/",
       "startDate": "2023-01-01",
-      "summary": "Architecting Big Data solutions and GenAI/LLM product development for 25+ teams. Lead end-to-end AI-powered solutions for financial services workflows, cost optimization analysis, and intelligent document processing. Drive innovation in LLM integration, multi-model AI comparison, and enterprise-scale data pipelines.",
+      "summary": "Lead architect for GenAI/LLM products and AI platform engineering across 25+ teams. Own end-to-end AI systems—LLM agent tooling, multi-provider model gateways, document intelligence, and ML classification—delivered as streaming APIs on AWS with production evals and CI/CD.",
       "highlights": [
-        "Built intelligent document processing platform with GenAI-powered cost optimization analysis, integrating 8 LLMs in parallel (GPT-4, Claude Opus/Sonnet, Gemini, Perplexity) for multi-model comparison with real-time quality scoring across 4 dimensions (Relevance, Completeness, Actionability, Technical Accuracy)",
-        "Implemented multi-model comparison feature enabling product teams to evaluate AI model performance side-by-side with automated hallucination detection, response quality assessment, and cost-per-token analysis to inform production model selection",
-        "Architected multi-stage financial services workflow with automated opportunity identification, lever mapping using GenAI, currency conversion across 14 currencies (BPS/EUR/USD/GBP/AUD/etc), and human-in-the-loop validation system for AI-generated insights",
-        "Engineered PostgreSQL/pgvector migration from ChromaDB for embeddings storage, achieving sub-100ms similarity search performance on 100K+ vectors with proper indexing and connection pooling",
-        "Designed AWS S3 document repository infrastructure using Terraform with KMS encryption, event notifications for automated ingestion pipelines, and audit trail logging for compliance",
-        "Built multi-currency auto-conversion system supporting real-time transformation across all cost analysis tables using reactive programming patterns and efficient data transformations (EUR Mn = (BPS × AuM Bn) / 10)",
-        "Developed comprehensive unit test suite with 72+ tests covering workflow logic, data processing, currency conversion, LLM integration, and human validation workflows",
-        "Architected enterprise data lake infrastructure using AWS CloudFormation, S3, and Snowflake, enabling unified analytics across multiple business units with proper data classification and cybersecurity compliance",
-        "Led data engineering proof of concept prototypes, pipeline designs and final implementation for business-critical data sources",
-        "Directed technical refinement of vendors' data technologies, evaluating and integrating third-party solutions into enterprise data stack",
-        "Stack: Python, Streamlit, FastAPI, PostgreSQL, pgvector, Anthropic Claude API, OpenAI GPT API, Google Gemini API, Perplexity API, Terraform, AWS (S3, KMS, Lambda, Kinesis, Glue, CloudFormation), Alembic, SQLAlchemy, Asyncio, Pandas, Plotly, Snowflake, Azure Blob Storage, Docker, Kubernetes, GoCD, GitHub Actions, JIRA"
+        "Built a Model Context Protocol (MCP) server exposing 75+ agent tools behind a tool-RAG discovery layer (list/search/describe/call) that reduces tool-selection errors for LLM agents; added a sandboxed code-execution mode for multi-tool composition, durable async job orchestration with idempotency, and confirm-guards on destructive operations",
+        "Architected a multi-provider LLM gateway unifying Anthropic, OpenAI/Azure, Google/Vertex, and AWS Bedrock behind a single model-facade with capability gating, NDJSON/SSE token streaming, and provider-native citation grounding",
+        "Engineered a vision-LLM document-intelligence pipeline for PDF extraction with page-anchored citations, metadata detection, and cancellable async batch jobs, converting unstructured reports into auditable, source-linked insights",
+        "Delivered an Explainable AI layer with evidence-first trust scoring, citation provenance, and W3C SHACL / JSON-LD ontology validation so every AI-generated claim traces back to a cited source",
+        "Designed a hierarchical transformer classifier (DeBERTa/RoBERTa via HuggingFace) that maps records into a 4-level, 137-path taxonomy; raised deepest-level accuracy from ~4% to 77%+ using class-weighted and focal loss with branch oversampling",
+        "Built the classifier's MLOps end-to-end: GPU fine-tuning on AWS SageMaker triggered from CI, FastAPI serving on ECS Fargate, and EFS-versioned model artifacts with symlink-based rollout and graceful degradation",
+        "Created offline evaluation harnesses comparing frontier vs. baseline models on latency, token cost, and output quality—with automated hallucination and quality scoring across multiple dimensions—to inform production model selection",
+        "Migrated embeddings storage from ChromaDB to PostgreSQL/pgvector, achieving sub-100ms similarity search on 100K+ vectors via proper indexing and connection pooling",
+        "Led a thin-client decoupling that moved all LLM/SDK work behind the FastAPI gateway (feature-flagged and guardrail-enforced), extending the API surface to ~120 endpoints across versioned APIs with async batch jobs and SSE progress streaming",
+        "Built a production React 19 / TypeScript / Vite front end (Tailwind CSS + shadcn/ui, Zustand state) featuring an SSE streaming chat interface with inline charts and click-to-source citation markers, elevating an analyst tool from prototype to client-ready web application",
+        "Added constrained LLM tool-calling for ontology-validated data queries and in-chat chart generation/editing, plus web-search-grounded autofill with per-field confidence scoring and a human accept/reject review flow",
+        "Shipped multi-format deliverable export—native editable PowerPoint charts, filled Excel workbooks, and self-contained interactive HTML reports—via async job orchestration with human-in-the-loop approval before export",
+        "Implemented real-time multi-currency financial normalization and reactive data transformations powering interactive analytics tables and human-in-the-loop validation of AI-generated insights",
+        "Designed AWS document-repository and knowledge-base infrastructure with Terraform—KMS encryption, event-driven ingestion, and audit logging for compliance",
+        "Drove engineering quality with a large automated test suite (unit, integration, BDD, and Playwright E2E), SonarQube gates, and Release Please monorepo versioning",
+        "Stack: Python, TypeScript, FastAPI, React, Vite, Tailwind CSS, shadcn/ui, Streamlit, PyTorch, HuggingFace Transformers, scikit-learn, LangChain/LangGraph, Model Context Protocol (FastMCP), Anthropic/OpenAI/Google/Bedrock APIs, PostgreSQL/pgvector, SQLAlchemy, Alembic, Redis/Celery, asyncio, AWS (SageMaker, ECS/Fargate, Bedrock, S3, KMS, Lambda), Terraform, Docker, Kubernetes, GitHub Actions, SonarQube"
       ]
     },
     {
@@ -63,33 +63,18 @@
       "website": "https://www.mckinsey.com/",
       "startDate": "2020-05-29",
       "endDate": "2023-01-01",
-      "summary": "Lead data engineering for multiple teams tasked with data analytics and insights needs. Responsible for end-to-end solutions managing 10+ data sources including Slack, Zoom, Microsoft Teams, SharePoint, Outlook, Box, and VPN monitoring. Built enterprise-scale data pipelines processing 100s of millions of API calls daily with automated Snowflake ingestion.",
+      "summary": "Led data engineering for multiple analytics teams, delivering end-to-end pipelines across 10+ enterprise data sources (Slack, Zoom, Microsoft Teams, SharePoint, Outlook, Box, VPN monitoring) and processing hundreds of millions of API calls daily into Snowflake.",
       "highlights": [
-        "Led Zoom Legacy Webhook Migration, architecting webhook validation pipelines with secure handshake implementation using Lambda Authorizers, recovering broken data streams and reducing API rate limit issues for enterprise-scale data ingestion",
-        "Architected Slack production data platform with 10+ AWS Glue pipelines using Pydantic for static mapping and security compliance, implementing API optimization that reduced calls from 16.5M to sub-million daily while maintaining data completeness",
-        "Deployed VPN monitoring data streaming solution on production with full AWS stack: API Gateway with WAF IP whitelisting, Lambda Authorizers, KMS-encrypted S3 buckets, Kinesis Stream/Firehose, enabling cross-channel analytics for support operations",
-        "Engineered Slack data automation in Snowflake with snowpipes, streams, tasks, and merge/upsert logic for 200-day backfills across analytics tables, implementing AWS Step Functions orchestration for dependency-based pipeline execution",
-        "Achieved 80% unit test coverage across 10+ Glue pipelines from 0%, meeting enterprise quality gate standards with comprehensive test suites covering Microsoft SharePoint, Exchange, Teams device usage, and collaboration analytics",
-        "Implemented security scanning for data engineering repository, enabling real-time SAST, secret scanning, SCA, and IAC security with pre-commit hooks, preventing credential leaks and ensuring compliance across 100+ data pipelines",
-        "Resolved 10+ critical security vulnerabilities including EC2 IMDSv2 migration, S3 CMK enforcement (replacing AWS-managed keys), WAF rule additions, SSH port 22 restrictions, and CloudFormation template security hardening for collaboration platform pipelines",
-        "Built event tracking pipeline with Terraform IaC, deploying to production with Snowflake cross-account storage integrations (DEV/TEST/PROD), upgrading AWS Glue 4.0 → 5.0 for modernized Spark environments",
-        "Optimized Microsoft Teams and Outlook pipelines by fixing SparkContext shutdown errors, GATEWAY TIMEOUT issues, and EC2 crash problems during large backfills, implementing semaphore count reduction and Graph API mapping for complete analytics datasets",
-        "Created data enrichment system for office attendance monitoring with Snowflake tasks running every 24 hours, maintaining historic snapshots with automated error monitoring and alerting for PII mapping",
-        "Reduced AWS expenditure rate by 99.6% and over $47k per year by rearchitecting AWS Serverless solutions to AWS Kinesis for high-throughput data streaming",
-        "Led Zoom 12-month backfill project for Webinar Report data, recovering historical data and ensuring completeness",
-        "Direct technical refinement of vendors' data technologies at The Firm",
-        "Manage risk in data warehouse with Cybersecurity to ensure data meets The Firm's data classification policy",
-        "Architect roadmaps, diagrams, and plans for multiple stages of development",
-        "Conceptualize & lead workshops on how to send various data sources into Snowflake",
-        "Guide unified data lake initiative to better data insights for The Firm",
-        "Build and maintain multiple asynchronous Python applications and Snaplogic pipelines to maximize data ingestion of REST APIs to perform ETL on 100s of gigabytes of data daily",
-        "Stand up cloud infrastructure that provides the foundation our Firm's data analytics",
-        "Create Kafka & Kinesis big data streams for product data",
-        "Work with diverse teams on preparing their data for the datalake",
-        "Craft intelligent systems to alert engineer teams of data inconsistencies",
-        "Construct pipelines to grab Splunk logs for data analytics dashboard needs",
-        "Make snowpipes, snowstages, and stored procedures for externally staged data in Azure Blob and AWS S3",
-        "Stack: Python, Pydantic, AWS Glue (4.0/5.0), Spark, Snowflake (Snowpipes, Streams, Tasks, Storage Integrations), AWS (Lambda, Kinesis, Firehose, S3, KMS, Step Functions, API Gateway, WAF, EC2, CloudFormation), Terraform, Slack Discovery API, Zoom Webhook API, Microsoft Graph API, Box Events API, Golden Frog, Wiz, Azure Blob Storage, Snaplogic, Docker, GoCD, Kubernetes, SonarQube, Pre-commit hooks"
+        "Architected a production data platform with 10+ AWS Glue pipelines using Pydantic for schema mapping and compliance, cutting API calls from 16.5M to sub-million daily while preserving data completeness",
+        "Reduced AWS expenditure by 99.6% (over $47K/year) by re-architecting serverless workloads onto AWS Kinesis for high-throughput streaming",
+        "Deployed a VPN-monitoring streaming solution on a full AWS stack: API Gateway with WAF IP whitelisting, Lambda Authorizers, KMS-encrypted S3, and Kinesis Stream/Firehose for cross-channel analytics",
+        "Led a legacy webhook migration, architecting webhook validation with secure handshakes via Lambda Authorizers to recover broken data streams and reduce rate-limit failures at enterprise scale",
+        "Engineered Snowflake automation (snowpipes, streams, tasks, merge/upsert) for 200-day backfills, orchestrated by AWS Step Functions for dependency-based execution",
+        "Raised unit-test coverage from 0% to 80% across 10+ Glue pipelines, meeting enterprise quality gates with suites covering SharePoint, Exchange, Teams, and collaboration analytics",
+        "Implemented repository security scanning (SAST, secret scanning, SCA, IaC) with pre-commit hooks across 100+ pipelines, and remediated 10+ critical vulnerabilities (EC2 IMDSv2, S3 CMK enforcement, WAF rules, SSH restrictions, CloudFormation hardening)",
+        "Built event-tracking pipelines with Terraform and Snowflake cross-account storage integrations (DEV/TEST/PROD), and upgraded AWS Glue 4.0 → 5.0 for a modernized Spark runtime",
+        "Optimized Microsoft Teams and Outlook pipelines by resolving SparkContext shutdown, gateway timeout, and EC2 crash issues during large backfills via semaphore tuning and Graph API mapping",
+        "Stack: Python, Pydantic, AWS Glue (4.0/5.0), Spark, Snowflake (Snowpipes, Streams, Tasks, Storage Integrations), AWS (Lambda, Kinesis, Firehose, S3, KMS, Step Functions, API Gateway, WAF, EC2, CloudFormation), Terraform, Microsoft Graph API, Azure Blob Storage, Docker, Kubernetes, GoCD, SonarQube, Pre-commit hooks"
       ]
     },
     {
@@ -98,13 +83,10 @@
       "website": "http://pwc.com",
       "startDate": "2019-12-04",
       "endDate": "2020-03-20",
-      "summary": "Created PwC Data Landscape, an analyzer to determine the risk level of data provided by a client.",
+      "summary": "Built the backend for a data-risk analysis platform that detects and assesses security risks of client-provided data, consumed by a React SPA.",
       "highlights": [
-        "Created the backend for the React SPA to consume",
-        "Learned and implemented proprietary PwC React components",
-        "Developed stakeholder's vision to detect and assess security risks of uploaded data",
-        "Architect roadmaps, diagrams, and plans for various stages of development",
-        "Stack: Docker, Django3 , Python3, Graphene, Graphql, DRF, React"
+        "Developed the Python/GraphQL backend and integrated proprietary React components to deliver the stakeholder vision for automated data-risk assessment",
+        "Stack: Docker, Django 3, Python 3, Graphene, GraphQL, DRF, React"
       ]
     },
     {
@@ -113,14 +95,11 @@
       "website": "https://www.capitalone.com",
       "startDate": "2019-05-13",
       "endDate": "2019-08-22",
-      "summary": "Architected/rebuilt Credit Risk Rating Platform enabling internal systems to perform risk rating of customers and facilities aiding bank decision making in credit approval process, as well as ongoing portfolio management.",
+      "summary": "Re-architected a Credit Risk Rating platform enabling risk rating of customers and facilities to support credit-approval decisions and ongoing portfolio management.",
       "highlights": [
-        "Created dockerized microservices with clear documentation",
-        "Provided code reviews and broke epics into stories for the team",
-        "Highly detailed documentation per micro service and python package",
-        "Built microservice for utlizing data models for finding Probability of default of a client",
-        "Worked with team to create a new platform featuring aspects of its predecessor",
-        "Stack: Python, flask, sqlalchemy, oracle, postgres, jenkins, docker, docker-compose, artifactory"]
+        "Built dockerized microservices—including a probability-of-default model service—with thorough documentation, code reviews, and epic-to-story breakdowns for the team",
+        "Stack: Python, Flask, SQLAlchemy, Oracle, Postgres, Jenkins, Docker, Docker Compose, Artifactory"
+      ]
     },
     {
       "company": "Cox Automotive",
@@ -128,13 +107,10 @@
       "website": "https://www.coxautoinc.com",
       "startDate": "2018-08-08",
       "endDate": "2019-03-01",
-      "summary": "Full Stack Python Engineer in Finance & Insurance, focused on Docker Container infrastructure, Pipelines in CI/CD and SOA Appliances. Analyzed and improved pre-existing architecture increasing performance of services and platform.",
+      "summary": "Full-stack Python engineer in Finance & Insurance focused on Docker container infrastructure, CI/CD pipelines, and SOA appliances; analyzed and improved existing architecture to increase service performance.",
       "highlights": [
-        "Made Jenkins groovy scripts to build, upload, and deployment of new docker images to Artifactory on Git PR merges",
-        "Utilized New Relic and Splunk for identifying under performing flows, issues and bottlenecks",
-        "Optimized code to improve performance and scalability",
-        "Documented new and undocumented services",
-        "Stack: Python, django, flask, celery, react, redis, oracle, postgres, mongodb, jenkins, docker, docker-compose, IBM datapower, artifactory, splunk, new relic"
+        "Automated Docker image build/upload/deploy to Artifactory via Jenkins (Groovy) on PR merges, and used New Relic and Splunk to identify bottlenecks and optimize underperforming flows",
+        "Stack: Python, Django, Flask, Celery, React, Redis, Oracle, Postgres, MongoDB, Jenkins, Docker, Docker Compose, IBM DataPower, Artifactory, Splunk, New Relic"
       ]
     },
     {
@@ -143,13 +119,10 @@
       "website": "http://pwc.com",
       "startDate": "2017-12-04",
       "endDate": "2018-07-02",
-      "summary": "Implemented VPN technologies into PwC internal tax audit platform on Azure. Used Docker/Docker-Compose to launch VPN containers when initiated by PaaS.",
+      "summary": "Integrated VPN technologies into an internal tax-audit platform on Azure, launching VPN containers on demand via PaaS.",
       "highlights": [
-        "Debugged React and Django integrations",
-        "Worked on VPN features for our internal tax audit platform, developed frontend, and backend solutions utilizing Django",
-        "Refactored Python applications for SnapLogic data pipelines",
-        "Built vSEC lab environments to mimic possible virtualized security solution configurations",
-        "Stack: Python3, celery, celery beat, redis, sqlite, react, django, docker, docker-compose, VSTS, Azure, ip-sec, vpn, openconnect, Snaplogic, AWS, Checkpoint Vsec, pulse secure"
+        "Developed frontend and Django backend VPN features, refactored Python applications for SnapLogic pipelines, and built virtualized security lab environments",
+        "Stack: Python 3, Celery, Redis, React, Django, Docker, Docker Compose, Azure, IPsec/VPN, OpenConnect, SnapLogic, AWS"
       ]
     },
     {
@@ -158,12 +131,10 @@
       "website": "http://bankofamerica.com",
       "startDate": "2017-07-10",
       "endDate": "2017-10-17",
-      "summary": "Collaborated cross functionally to develop target state cloud architecture and supporting organization model along with the platform roadmap required to achieve that target state.",
+      "summary": "Collaborated cross-functionally to define a target-state cloud architecture, supporting organization model, and platform roadmap.",
       "highlights": [
-        "Built REST APIs to match specs provided by other teams to deliver needed functionality",
-        "Executed POCs and feasibility studies to validate next-gen product concepts and technologies leveraging results to guide business and technology decisions",
-        "Enforced adherence to architectural standards/principles, global product-specific guidelines, usability design standards",
-        "Stack: Python3, Microsoft Azure, Terraform, Packer, Git, Flask, Flask-RestPlus, MongoDB, TDD, Agile, Kanban, Jenkins"
+        "Built REST APIs to team specs and ran POCs/feasibility studies to validate next-gen product concepts, guiding business and technology decisions while enforcing architectural standards",
+        "Stack: Python 3, Microsoft Azure, Terraform, Packer, Flask, Flask-RESTPlus, MongoDB, TDD, Jenkins"
       ]
     },
     {
@@ -172,17 +143,10 @@
       "website": "http://columbia.edu",
       "startDate": "2016-04-18",
       "endDate": "2017-07-06",
-      "summary": "Transitioned University to a Python stack while maintaining compatibility with legacy technologies.",
+      "summary": "Transitioned the University to a Python stack while maintaining compatibility with legacy systems; built full-stack applications and REST APIs with role-based access control.",
       "highlights": [
-        "Interviewed and selected candidates to assist on building University applications",
-        "Built Full Stack Python Applications for the University",
-        "Wrote Python scripts to parse JSON documents and load the data in database",
-        "Development locally with Vagrant and Docker for virtualized instances of servers and databases on the fly",
-        "Built REST APIs to serve out data from databases to legacy systems",
-        "Programmatically established levels of authorized access to restrict-allow systems REST API access",
-        "Created and planned out the server flow infrastructure for python web app stack for Columbia University",
-        "Followed Agile SDLC, made sure code was always up to PEP8 standards, and servers (with code) passed unit & load tests",
-        "Stack: Python3, python2, GIT, Flask/Blueprint, JIRA, Apache 2.2, Mod_WSGI, Oracle(11g,12c), Axure RP, Vagrant, Docker, Jenkins, Virtualbox, Postman, LTI, Oauth1, Oauth2, REST, Sakai, Canvas, Unix Bash/Shell Script, CRON, JavaScript, Nodejs, JSON"
+        "Designed the server/infrastructure flow for the Python web stack, built REST APIs bridging databases to legacy systems, and interviewed/onboarded developers",
+        "Stack: Python 3, Flask, Oracle, Apache/mod_wsgi, Vagrant, Docker, Jenkins, OAuth1/OAuth2, LTI, JavaScript, Node.js"
       ]
     },
     {
@@ -191,12 +155,8 @@
       "website": "https://gogobanana.net/",
       "startDate": "2016-06-01",
       "endDate": "2017-11-11",
-      "summary": "Based on your location, you will access real time local information.",
-      "highlights": [
-        "Implemented Google Maps for our platform and styled it for plotting our data",
-        "Created menu using React.JS for restful api CRUD events for events management and notifications",
-        "Recreated app in React Native with focus on iOS"
-      ]
+      "summary": "Founded a location-based app delivering real-time local information; built the React/React Native front end and a RESTful CRUD backend with Google Maps integration (iOS focus).",
+      "highlights": []
     },
     {
       "company": "Thinkful",
@@ -204,12 +164,8 @@
       "website": "http://thinkful.com",
       "startDate": "2015-06-18",
       "endDate": "2016-04-06",
-      "summary": "Mentored those pursuing careers in web development or Python.",
-      "highlights": [
-        "Mentored students in web development as they worked through a project-based curriculum",
-        "Guided students through the challenges of becoming a developer",
-        "Led weekly one-on-one online student questions/answers sessions to provide feedback on student code and projects"
-      ]
+      "summary": "Mentored aspiring developers through a project-based Python and web-development curriculum via weekly one-on-one sessions and code reviews.",
+      "highlights": []
     },
     {
       "company": "Work-Bench",
@@ -217,12 +173,8 @@
       "website": "http://www.work-bench.com",
       "startDate": "2015-11-12",
       "endDate": "2016-07-01",
-      "summary": "Delivered dynamic, interactive mobile friendly/revamp of Work-Bench careers page.",
-      "highlights": [
-        "Built a job scraper using the Indeed API to pull all of the companies member/portfolio jobs",
-        "Developed page to let users sort the received api feed and browse by location, job function, category",
-        "Stack: Git, Heroku, Ruby, Middleman Framework, REST, JavaScript, Jslint, JSON, Twitter Bootstrap, SCSS, Media Queries."
-      ]
+      "summary": "Delivered a responsive revamp of the careers page with an Indeed-API job scraper and sortable, filterable job feed. Stack: Ruby, Middleman, REST, JavaScript, JSON, Bootstrap, SCSS.",
+      "highlights": []
     },
     {
       "company": "Basics Plus",
@@ -230,29 +182,17 @@
       "website": "http://basicsplus.com",
       "startDate": "2015-01-15",
       "endDate": "2015-06-01",
-      "summary": "Constructed an online experience connecting the current POS system for retail chain of houseware & hardware stores in NYC.",
-      "highlights": [
-        "Interviewed and hired candidates to aid in e-commerce system development and refinements of our products",
-        "On boarded and trained the team for Full stack Web Development and the SEO team",
-        "Worked with Google Online Strategist to revamp ad campaigns, increase sales, and raise our site ranking",
-        "Worked with Google Tag Implementation Team to complete the installation of Dynamic Re-marketing Code and E-Commerce Tracking in Magento for adwords",
-        "Created and managed, and implemented new features for subsidiaries' e-commerce companies JuicifyMe, LibrettoEspresso, MyEspressoStore",
-        "Stack: Magento, MySQL, SEO, Google Analytics, Google AdWords, PHP, JavaScript, Jquery, GIT, CSS3, HTML5, Photoshop, Photography, Twitter Bootstrap"
-      ]
-    },    
+      "summary": "Built and maintained e-commerce systems for a NYC houseware/hardware retail chain and subsidiaries; led the dev/SEO team and partnered with Google strategists to grow sales and search ranking. Stack: Magento, MySQL, PHP, JavaScript, Google Analytics/AdWords.",
+      "highlights": []
+    },
     {
       "company": "New York City College Of Technology",
       "position": "College Laboratory Technician",
       "website": "http://citytech.cuny.edu",
       "startDate": "2014-01-01",
       "endDate": "2015-01-01",
-      "summary": "Assisted professors to instruct courses.",
-      "highlights": [
-        "Evaluated course plans",
-        "Taught code, video projects, technology hacks, Arduino projects, and apps using Emotiv created by students",
-        "Gave demos on emerging technologies",
-        "Stack: Adobe Photoshop, Adobe Premiere Pro, Pro Logic, Arduino, Raspberry Pi, MakerBot Printers"
-      ]
+      "summary": "Assisted professors in instructing courses on code, video, and hardware projects (Arduino, Raspberry Pi, MakerBot) and demoed emerging technologies.",
+      "highlights": []
     },
     {
       "company": "The K.I.S. Foundation, Inc.",
@@ -260,13 +200,8 @@
       "website": "http://thekisfoundation.org",
       "startDate": "2010-06-01",
       "endDate": "2017-09-18",
-      "summary": "Helped high profile client raise awareness for sickle cell disease by providing an online experience.",
-      "highlights": [
-        "Migrated existing site from Joomla to Wordpress",
-        "Developed a customized redesigned Wordpress theme for posting latest updates and charity events",
-        "Updated the sites code, design and feel annually",
-        "Stack: Wordpress, Joomla, MySQL, PHP, HTML, CSS, JavaScript, Adobe Photoshop"
-      ]
+      "summary": "Built and maintained the nonprofit's web presence to raise sickle-cell-disease awareness, migrating from Joomla to a customized WordPress theme. Stack: WordPress, MySQL, PHP, HTML/CSS/JavaScript.",
+      "highlights": []
     },
     {
       "company": "The Next Phase Entertainment, LLC.",
@@ -274,46 +209,125 @@
       "website": "http://weaproblem.com",
       "startDate": "2009-06-01",
       "endDate": "2013-12-30",
-      "summary": "Conceptualized, styled and developed unique websites for multiple artists under the Next Phase Entertainment label.",
-      "highlights": [
-        "Stack: WordPress, PhpMyAdmin, MySQL, PHP, HTML5, CSS3, Jquery, Twitter Bootstrap, Adobe Photoshop"
+      "summary": "Designed and developed websites for multiple artists under the label. Stack: WordPress, MySQL, PHP, HTML5/CSS3, jQuery, Bootstrap.",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "TypeScript", "SQL", "JavaScript", "Bash"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React 19",
+        "Vite",
+        "Tailwind CSS",
+        "shadcn/ui (Radix)",
+        "Zustand",
+        "React Router",
+        "Recharts",
+        "SSE streaming UI",
+        "Vitest"
       ]
+    },
+    {
+      "name": "AI/ML & LLM",
+      "keywords": [
+        "LLM orchestration",
+        "AI agents & tool use",
+        "Model Context Protocol (MCP)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Fine-tuning",
+        "PyTorch",
+        "HuggingFace Transformers",
+        "scikit-learn",
+        "LangChain / LangGraph",
+        "Prompt engineering",
+        "Model evaluation (evals)",
+        "Explainable AI (citations & grounding)",
+        "pgvector embeddings"
+      ]
+    },
+    {
+      "name": "LLM Providers",
+      "keywords": [
+        "Anthropic Claude",
+        "OpenAI / Azure OpenAI",
+        "Google Gemini / Vertex AI",
+        "AWS Bedrock",
+        "Perplexity"
+      ]
+    },
+    {
+      "name": "Backend & Streaming",
+      "keywords": [
+        "FastAPI",
+        "asyncio",
+        "SSE / NDJSON streaming",
+        "Celery + Redis",
+        "SQLAlchemy",
+        "Alembic",
+        "Pydantic",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": [
+        "AWS (SageMaker, ECS/Fargate, Bedrock, S3, KMS, Lambda, Kinesis)",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "CI/CD",
+        "SonarQube"
+      ]
+    },
+    {
+      "name": "Data",
+      "keywords": [
+        "Snowflake",
+        "PostgreSQL",
+        "Spark / AWS Glue",
+        "Kinesis / Kafka",
+        "Pandas",
+        "Plotly"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hunter College",
+      "area": "Emerging Media",
+      "startDate": "2014-02-27",
+      "endDate": "2014-05-24"
+    },
+    {
+      "institution": "New York City College of Technology",
+      "area": "Emerging Media Technologies",
+      "startDate": "2011-11-26",
+      "endDate": "2013-05-24"
+    },
+    {
+      "institution": "Borough of Manhattan Community College",
+      "area": "Multimedia Programming & Design",
+      "startDate": "2005-01-16",
+      "endDate": "2010-12-15"
+    },
+    {
+      "institution": "School of Cooperative Technical Education",
+      "area": "Cisco Networking and CompTIA PC Repair Training",
+      "startDate": "2003-12-23",
+      "endDate": "2005-01-05"
     }
   ],
   "certificates": [
     {
-      "name": "AWS Certified Cloud Practitioner"
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services"
     }
-  ],
-
-  "education": [
-  {
-    "area": "AWS Certified Cloud Practitioner"
-  },
-  {
-    "institution": "Hunter College",
-    "area": "Emerging Media",
-    "startDate": "2014-02-27",
-    "endDate": "2014-05-24"
-  },
-  {
-    "institution": "New York City College of Technology",
-    "area": "Emerging Media Technologies",
-    "startDate": "2011-11-26",
-    "endDate": "2013-05-24"
-  },
-  {
-    "institution": "Borough of Manhattan Community College",
-    "area": "Multimedia Programming & Design",
-    "startDate": "2005-01-16",
-    "endDate": "2010-12-15"
-  },
-  {
-    "institution": "School of Cooperative Technical Education",
-    "area": "Cisco Networking And CompTIA PC Repair Training",
-    "startDate": "2003-12-23",
-    "endDate": "2005-01-05"
-  }
   ],
   "awards": [
     {
@@ -326,18 +340,22 @@
       "title": "AngelHack 2016 Manhattan",
       "date": "2016-06-04",
       "awarder": "AngelHack",
-      "summary": "Winning Grand Prize(Hackcelerator) and Best Use Of Amazon Web Services. New York Minute is your pocket companion app to eliminate the frustration of getting around in New York City. It calculates the fastest, cheapest way to get to the desired destination by comparing the Uber car service and public transportation. Target users are New Yorkers who understand the fast pace of New York City life. Sponsors Technologies used Amazon AWS: Elastic Beanstalk, EBS, EC2, Route 53, S3 Amazon Alexa Esri ArcGIS."
+      "summary": "Winner of the Grand Prize (Hackcelerator) and Best Use of Amazon Web Services. New York Minute is a pocket companion app that calculates the fastest, cheapest way to get around NYC by comparing ride-share and public transit. Built on AWS (Elastic Beanstalk, EC2, Route 53, S3), Amazon Alexa, and Esri ArcGIS."
     }
   ],
   "references": [
     {
-    "name": "Latonia Robinson, Dir. of Operations, The K.I.S. Foundation",
-    "reference": "Daniel is an absolute joy to work with and continues to impress us with his technical skill sets. Whenever we have a problem with our website, he always has the answer or recommendations for improvement. Daniel follows direction well, he's always aware of the latest programs or trends, he works well with deadlines, he's able to communicate effectively, he's super reliable, and his experience is absolutely priceless. We're so thankful to have him working with us as part of our team! "
+      "name": "Latonia Robinson, Dir. of Operations, The K.I.S. Foundation",
+      "reference": "Daniel is an absolute joy to work with and continues to impress us with his technical skill sets. Whenever we have a problem with our website, he always has the answer or recommendations for improvement. Daniel follows direction well, he's always aware of the latest programs or trends, he works well with deadlines, he's able to communicate effectively, he's super reliable, and his experience is absolutely priceless. We're so thankful to have him working with us as part of our team!"
     },
     {
-    "name": "Antonio Riccardi, Web Engineer at Basics Plus",
-    "reference": "Daniel is one of the best developers we know. His speed and ability to conquer any challenge thrown at him helped us recover our online presence. He led our team here through rigorous challenges with unique solutions each time always getting the job done before the deadlines. Working with him was a blast and we would recommend him when it comes to handling tough projects!"
+      "name": "Antonio Riccardi, Web Engineer at Basics Plus",
+      "reference": "Daniel is one of the best developers we know. His speed and ability to conquer any challenge thrown at him helped us recover our online presence. He led our team here through rigorous challenges with unique solutions each time always getting the job done before the deadlines. Working with him was a blast and we would recommend him when it comes to handling tough projects!"
     }
-  ]
+  ],
+  "meta": {
+    "canonical": "https://github.com/plasx/jsonresume/blob/master/resume.json",
+    "version": "v2.0.0",
+    "lastModified": "2026-07-05"
+  }
 }
-
